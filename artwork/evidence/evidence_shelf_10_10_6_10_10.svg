@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 90" width="160" height="90">
+    <path d="M0 0H160V90H0Z" fill="#EDE1CC" />
+    <path d="M3 3H157V87H3Z" fill="none" stroke="#B19C80" stroke-width="0.48" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M7 68H153V71H7Z" fill="#282D35" />
+    <path d="M7 69H153V69.65H7Z" fill="#946136" />
+    <path d="M19.5 19.5H32.5A2.5 2.5 0 0 1 35 22V65.5A2.5 2.5 0 0 1 32.5 68H19.5A2.5 2.5 0 0 1 17 65.5V22A2.5 2.5 0 0 1 19.5 19.5Z" fill="#DCC9AB" />
+    <path d="M17.5 19H30.5A2.5 2.5 0 0 1 33 21.5V65.5A2.5 2.5 0 0 1 30.5 68H17.5A2.5 2.5 0 0 1 15 65.5V21.5A2.5 2.5 0 0 1 17.5 19Z" fill="#F7EEDD" />
+    <path d="M17.5 26.4H30.5A1.25 1.25 0 0 1 31.75 27.65V65.15A1.25 1.25 0 0 1 30.5 66.4H17.5A1.25 1.25 0 0 1 16.25 65.15V27.65A1.25 1.25 0 0 1 17.5 26.4Z" fill="#946136" />
+    <path d="M17.25 27.15L30.75 27.15" fill="none" stroke="#873C34" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M17.5 19H30.5A2.5 2.5 0 0 1 33 21.5V65.5A2.5 2.5 0 0 1 30.5 68H17.5A2.5 2.5 0 0 1 15 65.5V21.5A2.5 2.5 0 0 1 17.5 19Z" fill="none" stroke="#282D35" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M17 13H31A1 1 0 0 1 32 14V18.5A1 1 0 0 1 31 19.5H17A1 1 0 0 1 16 18.5V14A1 1 0 0 1 17 13Z" fill="#282D35" />
+    <path d="M17.2 15L30.8 15" fill="none" stroke="#B19C80" stroke-width="0.65" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M18 23L18 64" fill="none" stroke="#DCC9AB" stroke-width="0.65" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M22.95,77.00 L24.15,76.00 L24.15,81.00 M22.90,81.00 L25.40,81.00" fill="none" stroke="#282D35" stroke-width="0.79" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M47.5 19.5H60.5A2.5 2.5 0 0 1 63 22V65.5A2.5 2.5 0 0 1 60.5 68H47.5A2.5 2.5 0 0 1 45 65.5V22A2.5 2.5 0 0 1 47.5 19.5Z" fill="#DCC9AB" />
+    <path d="M45.5 19H58.5A2.5 2.5 0 0 1 61 21.5V65.5A2.5 2.5 0 0 1 58.5 68H45.5A2.5 2.5 0 0 1 43 65.5V21.5A2.5 2.5 0 0 1 45.5 19Z" fill="#F7EEDD" />
+    <path d="M45.5 26.4H58.5A1.25 1.25 0 0 1 59.75 27.65V65.15A1.25 1.25 0 0 1 58.5 66.4H45.5A1.25 1.25 0 0 1 44.25 65.15V27.65A1.25 1.25 0 0 1 45.5 26.4Z" fill="#946136" />
+    <path d="M45.25 27.15L58.75 27.15" fill="none" stroke="#873C34" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M45.5 19H58.5A2.5 2.5 0 0 1 61 21.5V65.5A2.5 2.5 0 0 1 58.5 68H45.5A2.5 2.5 0 0 1 43 65.5V21.5A2.5 2.5 0 0 1 45.5 19Z" fill="none" stroke="#282D35" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M45 13H59A1 1 0 0 1 60 14V18.5A1 1 0 0 1 59 19.5H45A1 1 0 0 1 44 18.5V14A1 1 0 0 1 45 13Z" fill="#282D35" />
+    <path d="M45.2 15L58.8 15" fill="none" stroke="#B19C80" stroke-width="0.65" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M46 23L46 64" fill="none" stroke="#DCC9AB" stroke-width="0.65" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M50.60,77.05 Q51.10,75.85 52.25,76.00 Q54.30,76.25 53.10,78.10 L50.63,81.00 L53.50,81.00" fill="none" stroke="#282D35" stroke-width="0.79" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M75.5 19.5H88.5A2.5 2.5 0 0 1 91 22V65.5A2.5 2.5 0 0 1 88.5 68H75.5A2.5 2.5 0 0 1 73 65.5V22A2.5 2.5 0 0 1 75.5 19.5Z" fill="#DCC9AB" />
+    <path d="M73.5 19H86.5A2.5 2.5 0 0 1 89 21.5V65.5A2.5 2.5 0 0 1 86.5 68H73.5A2.5 2.5 0 0 1 71 65.5V21.5A2.5 2.5 0 0 1 73.5 19Z" fill="#F7EEDD" />
+    <path d="M73.5 42.4H86.5A1.25 1.25 0 0 1 87.75 43.65V65.15A1.25 1.25 0 0 1 86.5 66.4H73.5A1.25 1.25 0 0 1 72.25 65.15V43.65A1.25 1.25 0 0 1 73.5 42.4Z" fill="#946136" />
+    <path d="M73.25 43.15L86.75 43.15" fill="none" stroke="#873C34" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M73.5 19H86.5A2.5 2.5 0 0 1 89 21.5V65.5A2.5 2.5 0 0 1 86.5 68H73.5A2.5 2.5 0 0 1 71 65.5V21.5A2.5 2.5 0 0 1 73.5 19Z" fill="none" stroke="#282D35" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M73 13H87A1 1 0 0 1 88 14V18.5A1 1 0 0 1 87 19.5H73A1 1 0 0 1 72 18.5V14A1 1 0 0 1 73 13Z" fill="#282D35" />
+    <path d="M73.2 15L86.8 15" fill="none" stroke="#B19C80" stroke-width="0.65" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M74 23L74 64" fill="none" stroke="#DCC9AB" stroke-width="0.65" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M78.75,76.60 Q79.75,75.60 80.92,76.20 Q82.25,77.10 80.05,78.35 Q81.70,78.40 81.55,79.72 Q81.20,81.85 78.65,80.52" fill="none" stroke="#282D35" stroke-width="0.79" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M103.5 19.5H116.5A2.5 2.5 0 0 1 119 22V65.5A2.5 2.5 0 0 1 116.5 68H103.5A2.5 2.5 0 0 1 101 65.5V22A2.5 2.5 0 0 1 103.5 19.5Z" fill="#DCC9AB" />
+    <path d="M101.5 19H114.5A2.5 2.5 0 0 1 117 21.5V65.5A2.5 2.5 0 0 1 114.5 68H101.5A2.5 2.5 0 0 1 99 65.5V21.5A2.5 2.5 0 0 1 101.5 19Z" fill="#F7EEDD" />
+    <path d="M101.5 26.4H114.5A1.25 1.25 0 0 1 115.75 27.65V65.15A1.25 1.25 0 0 1 114.5 66.4H101.5A1.25 1.25 0 0 1 100.25 65.15V27.65A1.25 1.25 0 0 1 101.5 26.4Z" fill="#946136" />
+    <path d="M101.25 27.15L114.75 27.15" fill="none" stroke="#873C34" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M101.5 19H114.5A2.5 2.5 0 0 1 117 21.5V65.5A2.5 2.5 0 0 1 114.5 68H101.5A2.5 2.5 0 0 1 99 65.5V21.5A2.5 2.5 0 0 1 101.5 19Z" fill="none" stroke="#282D35" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M101 13H115A1 1 0 0 1 116 14V18.5A1 1 0 0 1 115 19.5H101A1 1 0 0 1 100 18.5V14A1 1 0 0 1 101 13Z" fill="#282D35" />
+    <path d="M101.2 15L114.8 15" fill="none" stroke="#B19C80" stroke-width="0.65" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M102 23L102 64" fill="none" stroke="#DCC9AB" stroke-width="0.65" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M108.85,81.00 L108.85,76.00 L106.50,79.35 L109.55,79.35" fill="none" stroke="#282D35" stroke-width="0.79" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M131.5 19.5H144.5A2.5 2.5 0 0 1 147 22V65.5A2.5 2.5 0 0 1 144.5 68H131.5A2.5 2.5 0 0 1 129 65.5V22A2.5 2.5 0 0 1 131.5 19.5Z" fill="#DCC9AB" />
+    <path d="M129.5 19H142.5A2.5 2.5 0 0 1 145 21.5V65.5A2.5 2.5 0 0 1 142.5 68H129.5A2.5 2.5 0 0 1 127 65.5V21.5A2.5 2.5 0 0 1 129.5 19Z" fill="#F7EEDD" />
+    <path d="M129.5 26.4H142.5A1.25 1.25 0 0 1 143.75 27.65V65.15A1.25 1.25 0 0 1 142.5 66.4H129.5A1.25 1.25 0 0 1 128.25 65.15V27.65A1.25 1.25 0 0 1 129.5 26.4Z" fill="#946136" />
+    <path d="M129.25 27.15L142.75 27.15" fill="none" stroke="#873C34" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M129.5 19H142.5A2.5 2.5 0 0 1 145 21.5V65.5A2.5 2.5 0 0 1 142.5 68H129.5A2.5 2.5 0 0 1 127 65.5V21.5A2.5 2.5 0 0 1 129.5 19Z" fill="none" stroke="#282D35" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M129 13H143A1 1 0 0 1 144 14V18.5A1 1 0 0 1 143 19.5H129A1 1 0 0 1 128 18.5V14A1 1 0 0 1 129 13Z" fill="#282D35" />
+    <path d="M129.2 15L142.8 15" fill="none" stroke="#B19C80" stroke-width="0.65" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M130 23L130 64" fill="none" stroke="#DCC9AB" stroke-width="0.65" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M137.40,76.00 L135.10,76.00 L134.80,78.35 Q136.80,77.65 137.40,78.80 Q138.40,81.75 134.70,80.55" fill="none" stroke="#282D35" stroke-width="0.79" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

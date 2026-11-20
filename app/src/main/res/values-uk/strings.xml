@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tagline">Вивчайте докази, перевіряйте алібі та знаходьте винного.</string>
+    <string name="back">Назад</string>
+    <string name="close">Закрити</string>
+    <string name="cancel">Скасувати</string>
+
+    <string name="nav_home">Головна</string>
+    <string name="nav_cases">Справи</string>
+    <string name="nav_settings">Налаштування</string>
+
+    <string name="home_continue">Продовжити · Справа %1$d</string>
+    <string name="home_new">Нова справа</string>
+    <string name="home_collection">Колекція справ</string>
+    <string name="home_settings">Налаштування</string>
+    <string name="home_progress">Розкрито %1$d з %2$d</string>
+    <string name="home_stars">Зібрано зірок: %1$d з %2$d</string>
+    <string name="home_all_done">Усі справи закрито. Будь-яку можна пройти знову з колекції.</string>
+
+    <string name="cases_title">Колекція справ</string>
+    <string name="filter_all">Усі</string>
+    <string name="diff_easy">Легкі</string>
+    <string name="diff_medium">Середні</string>
+    <string name="diff_hard">Складні</string>
+    <string name="kind_matrix">Логічна матриця</string>
+    <string name="kind_alibi">Аналіз алібі</string>
+    <string name="kind_contradiction">Суперечності</string>
+    <string name="kind_cipher">Шифр</string>
+    <string name="kind_document">Документ</string>
+    <string name="kind_visual">Візуальна загадка</string>
+    <string name="kind_sequence">Послідовність подій</string>
+    <string name="cats_n">категорій: %1$d</string>
+    <string name="status_new">Не розпочато</string>
+    <string name="status_started">У процесі</string>
+    <string name="status_solved">Розкрито</string>
+
+    <string name="case_n">Справа %1$d</string>
+    <string name="tab_brief">Справа</string>
+    <string name="tab_investigate">Розслідування</string>
+    <string name="section_fact">Ключовий факт</string>
+    <string name="section_task">Особливий доказ</string>
+    <string name="task_todo">Розв\'яжіть його, щоб відкрити ще один доказ.</string>
+    <string name="task_done">Розв\'язано. Доказ відкрито.</string>
+    <string name="to_investigation">До розслідування</string>
+    <string name="hint">Підказка</string>
+    <string name="check">Перевірити</string>
+    <string name="restart">Почати спочатку</string>
+    <string name="restart_title">Почати справу спочатку?</string>
+    <string name="restart_body">Усі позначки в матриці, особливий доказ і лічильник підказок цієї справи буде скинуто.</string>
+
+    <string name="grid_empty">порожньо</string>
+    <string name="grid_no">ні</string>
+    <string name="grid_yes">так</string>
+    <string name="grid_help">Торкніться клітинки: ✕ — виключено, ✓ — підтверджено, третій дотик очищає.</string>
+    <string name="grid_pan">Гортайте матрицю вбік, щоб побачити всі стовпці.</string>
+    <string name="clues_title">Докази</string>
+    <string name="clue_n">Доказ %1$d</string>
+    <string name="clue_locked">Доказ закрито. Розв\'яжіть особливий доказ, щоб його прочитати.</string>
+
+    <string name="check_errors">Позначок, що суперечать доказам: %1$d. Їх підсвічено.</string>
+    <string name="check_incomplete">Поки без помилок. Поставте ✓ кожному підозрюваному в кожній категорії, щоб завершити.</string>
+    <string name="accuse_title">Хто винен?</string>
+    <string name="accuse_body">Матриця правильна. Тепер за ключовим фактом назвіть винного.</string>
+    <string name="accuse_wrong_title">Не поспішайте</string>
+    <string name="accuse_wrong_body">Бути на місці — ще не означає бути винним. Перечитайте ключовий факт і зіставте його з матрицею.</string>
+
+    <string name="hint_apply">Позначити</string>
+    <string name="hint_errors">Деякі позначки суперечать доказам. Їх підсвічено в матриці — спершу виправте їх.</string>
+    <string name="hint_need_task">З відкритих доказів більше нічого не випливає. Розв\'яжіть особливий доказ, щоб відкрити останній.</string>
+    <string name="hint_none">Усе, що можна вивести, уже є в матриці. Натисніть «Перевірити».</string>
+    <string name="task_open">Відкрити</string>
+
+    <string name="rule_clue">Доказ %1$d каже це прямо: %2$s.</string>
+    <string name="rule_logic">Із доказу %1$d та вже наявних позначок випливає: %2$s.</string>
+    <string name="rule_taken">%1$s уже в парі з %2$s, тому: %3$s.</string>
+    <string name="rule_only">Для «%1$s» у категорії «%2$s» лишився єдиний варіант: %3$s.</string>
+    <string name="rule_link">%1$s і %2$s — одна пара, тож відоме про одне стосується й іншого: %3$s.</string>
+    <string name="rule_nocommon">Жоден із можливих варіантів для «%1$s» у категорії «%2$s» не поєднується з «%3$s», тому: %4$s.</string>
+    <string name="rule_contra">Якщо припустити протилежне, докази приведуть до суперечності. Отже: %1$s.</string>
+
+    <string name="task_answer">Відповісти</string>
+    <string name="task_order_help">Торкайтеся подій у тому порядку, в якому вони відбулися. Дотик до пронумерованої скасовує вибір.</string>
+    <string name="task_wrong">Це не узгоджується з доказами. Придивіться ще раз.</string>
+    <string name="task_correct">Правильно!</string>
+    <string name="task_new_clue">Новий доказ:</string>
+    <string name="task_back">Назад до розслідування</string>
+
+    <string name="result_title">Справу розкрито!</string>
+    <string name="result_stars">Оцінка: %1$d з 3 зірок</string>
+    <string name="result_stats">Підказок використано: %1$d · Помилок: %2$d</string>
+    <string name="result_culprit">Винна особа</string>
+    <string name="result_fact_note">Сама присутність нічого не доводить — провина випливає саме з цього факту.</string>
+    <string name="result_solution">Повний розв\'язок</string>
+    <string name="result_explanation">Хід дедукції</string>
+    <string name="result_final">Ключовий факт: злочин пов\'язаний із «%1$s». Матриця поєднує це з іменем %2$s — це і є винна особа.</string>
+    <string name="result_epilogue">Епілог</string>
+    <string name="result_next">Наступна справа</string>
+    <string name="result_collection">Колекція</string>
+    <string name="result_replay">Пройти справу знову</string>
+
+    <string name="settings_title">Налаштування</string>
+    <string name="set_language">Мова</string>
+    <string name="set_theme">Тема</string>
+    <string name="theme_system">Як у системі</string>
+    <string name="theme_light">Світла</string>
+    <string name="theme_dark">Темна</string>
+    <string name="set_animations">Анімації</string>
+    <string name="set_animations_sub">Переходи між екранами та відгук на дотик</string>
+    <string name="set_sounds">Звуки</string>
+    <string name="set_sounds_sub">Тихі клацання та сигнали результату</string>
+    <string name="set_reset">Скинути прогрес</string>
+    <string name="set_reset_sub">Стирає розкриті справи, зірки та всі позначки. Налаштування залишаються.</string>
+    <string name="reset_title">Скинути весь прогрес?</string>
+    <string name="reset_body">Усі справи повернуться до стану «не розпочато». Цю дію неможливо скасувати.</string>
+    <string name="reset_done">Прогрес скинуто.</string>
+    <string name="about">Deductive: Case Files 1.0 · 120 офлайн-справ · без реклами й без мережі</string>
+
+    <string name="next">Далі</string>
+    <string name="tour_title">Як грати</string>
+    <string name="tour_offer_title">Вітаємо, детективе!</string>
+    <string name="tour_offer_body">Пройдіть двохвилинний екскурс: на одній маленькій справі ми покажемо, як читати докази, заповнювати матрицю й називати винного. Його завжди можна відкрити пізніше з головного екрана.</string>
+    <string name="tour_start">Пройти екскурс</string>
+    <string name="tour_later">Пізніше</string>
+    <string name="tour_intro1">У кожній справі кілька підозрюваних. Кожен із них був рівно в одному місці й мав рівно одну річ, і жодне місце чи річ не повторюються. Матриця допомагає з\'ясувати, хто з чим пов\'язаний.</string>
+    <string name="tour_intro2">Клітинка на перетині двох назв — це питання: «чи пов\'язані ці двоє?» ✕ означає «ні», ✓ — «так». Один дотик ставить ✕, другий — ✓, третій очищає клітинку. Розберімо докази по черзі.</string>
+    <string name="tour_tap_no">Торкніться підсвіченої клітинки один раз, щоб поставити ✕.</string>
+    <string name="tour_tap_yes">Торкніться підсвіченої клітинки двічі, щоб поставити ✓. Решту її рядка та стовпця буде закреслено автоматично.</string>
+    <string name="tour_do_it">Зробити за мене</string>
+    <string name="tour_after">Матрицю заповнено. У справжніх справах «Підказка» пояснює наступний логічний крок, а «Перевірити» підсвічує помилки. Деякі справи мають ще й особливий доказ — шифр, алібі чи малюнок, — який відкриває додатковий доказ.</string>
+    <string name="tour_fact">Матриця показує лише, хто де був. Провина випливає з ключового факту — зіставте його з матрицею й назвіть винного.</string>
+    <string name="tour_accuse">Назвати винного</string>
+    <string name="tour_done">Чудово — це й уся наука. У складніших справах більше підозрюваних, з\'являється четверта категорія й хитріші докази, але міркування ті самі.</string>
+    <string name="tour_first_case">До першої справи</string>
+</resources>

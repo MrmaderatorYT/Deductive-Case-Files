@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string-array name="evidence_specs" translatable="false">
+        <item>CLOCK:4:10</item>
+        <item>CLOCK:4:40</item>
+        <item>CLOCK:5:20</item>
+        <item>CLOCK:5:50</item>
+        <item>CLOCK:7:25</item>
+        <item>CLOCK:8:40</item>
+        <item>CLOCK:9:40</item>
+        <item>KEYS:31424:31442:13424:31424:31224</item>
+        <item>SHELF:10,10,6,10,10</item>
+        <item>TRAIL:2-4-5:3-1-6</item>
+        <item>TRAIL:3-2-5:4-1-2</item>
+        <item>TRAIL:5-3-4:2-1-6</item>
+        <item>TRAIL:5-4-3:1-2-6</item>
+    </string-array>
+    <array name="evidence_images">
+        <item>@drawable/evidence_clock_4_10</item>
+        <item>@drawable/evidence_clock_4_40</item>
+        <item>@drawable/evidence_clock_5_20</item>
+        <item>@drawable/evidence_clock_5_50</item>
+        <item>@drawable/evidence_clock_7_25</item>
+        <item>@drawable/evidence_clock_8_40</item>
+        <item>@drawable/evidence_clock_9_40</item>
+        <item>@drawable/evidence_keys_31424_31442_13424_31424_31224</item>
+        <item>@drawable/evidence_shelf_10_10_6_10_10</item>
+        <item>@drawable/evidence_trail_2_4_5_3_1_6</item>
+        <item>@drawable/evidence_trail_3_2_5_4_1_2</item>
+        <item>@drawable/evidence_trail_5_3_4_2_1_6</item>
+        <item>@drawable/evidence_trail_5_4_3_1_2_6</item>
+    </array>
+</resources>

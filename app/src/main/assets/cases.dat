@@ -1,0 +1,2260 @@
+# Language-neutral case structure. Solutions are not stored: PuzzleSolver derives them.
+# d=difficulty k=kind s=scene n=size c=categories o=ordered category key=crime entity
+# q=clue constraints lock=clue revealed by the evidence task t=task mode/answer v=task spec
+
+# Tutorial case (id 0): used only by the guided tour, never listed in the collection.
+[0]
+d=0
+k=MATRIX
+s=CAFE
+n=3
+c=3
+o=-1
+key=B0
+q=NOT A0 B0
+q=IS A1 C1
+q=NOT B1 C1
+q=IS B0 C2
+
+[1]
+d=0
+k=MATRIX
+s=MANOR
+n=3
+c=3
+o=-1
+key=B1
+q=IS B0 C0
+q=NOT A2 C1
+q=EITHER C0 A0 B2
+q=NOT B2 C2
+
+[2]
+d=0
+k=MATRIX
+s=CAFE
+n=3
+c=3
+o=-1
+key=B1
+q=NOT A1 C1
+q=NOT A1 B0
+q=NOT A2 B0
+q=NOT B1 C0
+q=IS B2 C1
+
+[3]
+d=0
+k=ALIBI
+s=TRAIN
+n=3
+c=3
+o=-1
+key=B1
+q=NOT A1 B1
+q=NOT A1 B2
+q=NOT B1 C2
+q=NOT A1 C2
+q=IS A2 C0
+lock=0
+t=CHOICE 1
+v=
+
+[4]
+d=0
+k=CIPHER
+s=LIBRARY
+n=3
+c=3
+o=-1
+key=B1
+q=NOT B2 C0
+q=NOT A1 B1
+q=IS A0 B2
+q=NOT A0 C2
+q=NOT A1 C0
+lock=0
+t=CHOICE 1
+v=CAESAR:1
+
+[5]
+d=0
+k=VISUAL
+s=MUSEUM
+n=3
+c=3
+o=-1
+key=B1
+q=IS A0 B0
+q=NOT A1 C1
+q=NOT A1 C0
+q=NOT A1 B1
+q=NOT B0 C0
+lock=1
+t=CHOICE 1
+v=CLOCK:9:40
+
+[6]
+d=0
+k=CONTRADICTION
+s=THEATER
+n=3
+c=3
+o=-1
+key=B2
+q=NOT B1 C2
+q=NOT A2 B2
+q=NOT A0 C1
+q=NOT B2 C2
+q=IS A1 B0
+lock=0
+t=CHOICE 1
+v=
+
+[7]
+d=0
+k=MATRIX
+s=HOTEL
+n=4
+c=3
+o=-1
+key=B1
+q=IS A1 C0
+q=EITHER C0 B1 B0
+q=EITHER C3 B2 A1
+q=EITHER A2 C3 B0
+q=NOT A0 B1
+q=NOT A1 B1
+q=NOT A0 C2
+
+[8]
+d=0
+k=DOCUMENT
+s=OFFICE
+n=4
+c=3
+o=-1
+key=B2
+q=NOT A3 B2
+q=NOT A2 B2
+q=NOT B1 C1
+q=EITHER A1 C3 C2
+q=IS A1 B3
+q=EITHER B2 A2 C2
+q=NOT A2 B0
+lock=0
+t=CHOICE 1
+v=
+
+[9]
+d=0
+k=SEQUENCE
+s=GARDEN
+n=4
+c=3
+o=-1
+key=B2
+q=NOT A3 C0
+q=EITHER A2 C3 C2
+q=IS A1 C2
+q=NOT A3 B0
+q=NOT B2 C2
+q=IS B1 C0
+q=NOT B2 C1
+lock=0
+t=ORDER
+v=
+
+[10]
+d=0
+k=ALIBI
+s=HARBOR
+n=4
+c=3
+o=-1
+key=B0
+q=IS A0 C1
+q=IS A1 B2
+q=EITHER B1 C2 C1
+q=NOT B2 C0
+q=EITHER A2 B1 B0
+q=EITHER C3 B1 A2
+lock=3
+t=CHOICE 1
+v=
+
+[11]
+d=1
+k=MATRIX
+s=LAB
+n=4
+c=3
+o=-1
+key=B0
+q=NOT A2 C2
+q=PAIR C1 C0 B2 A0
+q=PAIR C1 C3 B3 B1
+q=NOT A2 B3
+q=DIFF A1 B0 C3
+
+[12]
+d=1
+k=CIPHER
+s=OBSERVATORY
+n=4
+c=3
+o=-1
+key=B0
+q=NOT A2 C3
+q=PAIR B3 B0 C0 A1
+q=DIFF A3 B2 C2
+q=IS B3 C2
+q=EITHER B1 A1 A0
+lock=0
+t=CHOICE 0
+v=ATBASH
+
+[13]
+d=1
+k=CONTRADICTION
+s=MANOR
+n=4
+c=3
+o=-1
+key=B1
+q=NOT A1 B2
+q=PAIR C3 C0 B1 B0
+q=EITHER A3 B0 C0
+q=PAIR A0 A1 B0 C1
+q=NOT A2 B2
+lock=0
+t=CHOICE 1
+v=
+
+[14]
+d=1
+k=VISUAL
+s=HOTEL
+n=4
+c=3
+o=-1
+key=B2
+q=PAIR C0 C2 A3 B3
+q=IS A0 B1
+q=EITHER B0 A3 C0
+q=DIFF A1 B0 C0
+q=NOT A1 C1
+lock=4
+t=CHOICE 2
+v=KEYS:31424:31442:13424:31424:31224
+
+[15]
+d=1
+k=DOCUMENT
+s=MUSEUM
+n=4
+c=3
+o=-1
+key=B0
+q=NOT A3 C2
+q=DIFF A3 B3 C1
+q=EITHER C0 B3 A2
+q=IS B1 C2
+q=IS A0 C1
+q=EITHER A3 B2 C0
+lock=0
+t=CHOICE 3
+v=
+
+[16]
+d=1
+k=SEQUENCE
+s=TRAIN
+n=4
+c=4
+o=3
+key=B1
+q=NEXT A3 B3 D
+q=EITHER D2 C2 B2
+q=LT A2 C2 D
+q=DIFF A0 B1 C0
+q=NOT A0 C1
+q=NEXT B1 C0 D
+q=NEXT A2 B0 D
+q=DIFF B1 C0 D1
+lock=4
+t=ORDER
+v=
+
+[17]
+d=1
+k=ALIBI
+s=THEATER
+n=4
+c=4
+o=3
+key=B0
+q=PAIR A2 A3 C0 D3
+q=IS B1 D1
+q=NOT B0 C1
+q=PAIR A0 A2 B3 D3
+q=PAIR D1 D0 A1 A3
+q=IS B3 C2
+q=NEXT C0 C3 D
+lock=2
+t=CHOICE 1
+v=
+
+[18]
+d=1
+k=MATRIX
+s=CAFE
+n=4
+c=4
+o=3
+key=B2
+q=NEXT B0 A0 D
+q=EITHER B0 A3 A0
+q=LT B1 C1 D
+q=EITHER A2 D2 C3
+q=NEXT B2 A1 D
+q=NOT C2 D1
+q=DIFF A2 C1 D2
+q=LT A1 B3 D
+
+[19]
+d=1
+k=CIPHER
+s=HARBOR
+n=4
+c=4
+o=3
+key=B3
+q=NOT B2 D1
+q=EITHER C2 A2 A1
+q=PAIR B3 B1 C1 C3
+q=NEXT B2 A3 D
+q=NEXT B0 B3 D
+q=NOT B1 D3
+q=PAIR C0 C3 A1 B0
+lock=0
+t=CHOICE 2
+v=NUMBERS
+
+[20]
+d=1
+k=VISUAL
+s=LIBRARY
+n=4
+c=4
+o=3
+key=B3
+q=EITHER C3 B2 A2
+q=IS A1 C3
+q=EITHER B0 A0 C3
+q=DIFF A0 B1 C2
+q=NEXT C3 A0 D
+q=IS B1 C0
+q=EITHER C2 A1 D2
+q=NOT A2 D3
+lock=7
+t=CHOICE 1
+v=TRAIL:3-2-5:4-1-2
+
+[21]
+d=2
+k=MATRIX
+s=GARDEN
+n=5
+c=3
+o=-1
+key=B3
+q=NOT B1 C3
+q=DIFF A0 B1 C2
+q=PAIR B2 B1 A0 A2
+q=EITHER C0 B3 B0
+q=NOT B0 C3
+q=DIFF A4 B0 C0
+q=EITHER A0 C4 C0
+q=PAIR B3 B4 A4 A1
+
+[22]
+d=2
+k=CONTRADICTION
+s=OFFICE
+n=5
+c=3
+o=-1
+key=B4
+q=EITHER B4 C2 C1
+q=DIFF A0 B3 C0
+q=DIFF A3 B2 C1
+q=NOT A0 C4
+q=DIFF A4 B0 C4
+q=PAIR A1 A2 B1 C1
+q=EITHER B1 A2 C1
+q=EITHER A3 B2 C3
+q=EITHER B4 C1 C3
+lock=3
+t=CHOICE 0
+v=
+
+[23]
+d=2
+k=DOCUMENT
+s=LAB
+n=5
+c=3
+o=-1
+key=B0
+q=NOT A3 B0
+q=IS A2 B3
+q=EITHER A0 B1 C4
+q=PAIR A0 A3 B2 C0
+q=NOT A4 C1
+q=EITHER A2 C2 B0
+q=NOT A4 B1
+q=NOT B1 C0
+lock=0
+t=CHOICE 2
+v=
+
+[24]
+d=2
+k=SEQUENCE
+s=OBSERVATORY
+n=5
+c=3
+o=-1
+key=B2
+q=EITHER A3 B3 C2
+q=NOT A4 C3
+q=DIFF A1 B4 C1
+q=EITHER A1 B2 B4
+q=DIFF A1 B1 C3
+q=EITHER B3 A0 C4
+q=DIFF A1 B0 C3
+q=EITHER A2 C2 B1
+q=EITHER C0 B4 B3
+lock=1
+t=ORDER
+v=
+
+[25]
+d=2
+k=ALIBI
+s=HOTEL
+n=5
+c=3
+o=-1
+key=B4
+q=DIFF A0 B1 C0
+q=NOT A2 B4
+q=EITHER B4 C0 C2
+q=DIFF A3 B1 C0
+q=NOT B2 C4
+q=DIFF A2 B2 C3
+q=PAIR A0 A1 B2 C1
+q=IS A4 B3
+lock=1
+t=CHOICE 0
+v=
+
+[26]
+d=2
+k=CIPHER
+s=MANOR
+n=5
+c=3
+o=-1
+key=B3
+q=EITHER C0 A1 B1
+q=PAIR B2 B0 A1 C4
+q=NOT A4 B4
+q=DIFF A3 B4 C3
+q=DIFF A0 B0 C2
+q=DIFF A0 B3 C3
+q=EITHER A4 B3 C2
+q=NOT A0 C0
+lock=2
+t=CHOICE 1
+v=CAESAR:3
+
+[27]
+d=2
+k=VISUAL
+s=CAFE
+n=5
+c=3
+o=-1
+key=B3
+q=EITHER B3 A2 C1
+q=NOT A4 B2
+q=EITHER B0 A3 C2
+q=PAIR B2 B0 A4 C0
+q=DIFF A1 B4 C4
+q=EITHER A1 B3 C3
+q=NOT A2 B1
+q=EITHER A0 B3 C3
+lock=1
+t=CHOICE 2
+v=SHELF:10,10,6,10,10
+
+[28]
+d=2
+k=CONTRADICTION
+s=MUSEUM
+n=4
+c=4
+o=3
+key=B2
+q=NEXT C0 B1 D
+q=EITHER D0 B0 A3
+q=EITHER C2 D0 D3
+q=IS A2 B3
+q=NOT A3 C3
+q=EITHER C2 A2 A1
+q=LT A3 C0 D
+q=NEXT B0 B3 D
+lock=4
+t=CHOICE 1
+v=
+
+[29]
+d=2
+k=DOCUMENT
+s=HARBOR
+n=5
+c=4
+o=3
+key=B1
+q=LT B2 A4 D
+q=NEXT B3 A0 D
+q=EITHER C2 B1 D1
+q=NOT A1 D2
+q=NEXT B4 A2 D
+q=NOT B2 C1
+q=DIFF A1 C4 D3
+q=PAIR A1 A2 D2 C1
+q=NEXT C0 B3 D
+q=NEXT B0 A4 D
+lock=3
+t=CHOICE 0
+v=
+
+[30]
+d=2
+k=MATRIX
+s=THEATER
+n=5
+c=4
+o=3
+key=B1
+q=LT B0 B1 D
+q=DIFF B2 C3 D3
+q=NOT B3 D1
+q=LT B3 A2 D
+q=NEXT C0 C4 D
+q=NOT B3 D3
+q=EITHER B2 C0 D1
+q=NEXT C3 A3 D
+q=EITHER B1 A4 A3
+q=LT C3 B2 D
+q=PAIR C0 C1 A1 A4
+q=IS B0 C2
+q=EITHER A3 B3 C2
+
+# ---- generated cases (tools/ContentGen.java) ----
+
+[31]
+d=0
+k=MATRIX
+s=MANOR
+n=3
+c=3
+o=-1
+key=B1
+q=NOT B1 C0
+q=NOT A0 B0
+q=IS A2 C2
+q=NOT B0 C0
+q=NOT A1 C1
+
+[32]
+d=0
+k=ALIBI
+s=CAFE
+n=3
+c=3
+o=-1
+key=B1
+q=IS A1 B2
+q=NOT B1 C0
+q=NOT B2 C1
+q=NOT A2 B0
+q=NOT B2 C0
+lock=3
+t=CHOICE 2
+v=
+
+[33]
+d=0
+k=CIPHER
+s=TRAIN
+n=3
+c=3
+o=-1
+key=B0
+q=NOT A1 C0
+q=EITHER A1 C0 B0
+q=NOT A1 C1
+q=NOT A2 C1
+q=IS A0 B1
+lock=0
+t=CHOICE 0
+v=NUMBERS
+
+[34]
+d=0
+k=MATRIX
+s=LIBRARY
+n=3
+c=3
+o=-1
+key=B0
+q=NOT B2 C1
+q=NOT A2 B2
+q=EITHER B1 C2 C0
+q=IS A2 C0
+q=NOT A0 C2
+
+[35]
+d=0
+k=CONTRADICTION
+s=MUSEUM
+n=3
+c=3
+o=-1
+key=B0
+q=IS B2 C2
+q=NOT A1 B0
+q=NOT B0 C0
+q=NOT A2 C2
+q=NOT A2 B0
+lock=1
+t=CHOICE 1
+v=
+
+[36]
+d=0
+k=DOCUMENT
+s=THEATER
+n=3
+c=3
+o=-1
+key=B2
+q=EITHER A0 C0 B0
+q=NOT A0 B2
+q=IS B1 C1
+q=NOT A2 B2
+lock=1
+t=CHOICE 1
+v=
+
+[37]
+d=0
+k=MATRIX
+s=HOTEL
+n=3
+c=3
+o=-1
+key=B0
+q=NOT A0 B2
+q=NOT B2 C1
+q=NOT A0 C1
+q=IS A2 C2
+q=NOT A0 B0
+
+[38]
+d=0
+k=VISUAL
+s=OFFICE
+n=3
+c=3
+o=-1
+key=B1
+q=NOT A1 B1
+q=IS A0 C1
+q=NOT A1 C2
+q=NOT A0 B0
+q=NOT A1 B0
+lock=0
+t=CHOICE 1
+v=CLOCK:5:20
+
+[39]
+d=0
+k=SEQUENCE
+s=GARDEN
+n=3
+c=3
+o=-1
+key=B1
+q=NOT A0 B0
+q=NOT B1 C1
+q=EITHER A2 C0 B1
+q=NOT B0 C1
+q=NOT A2 C0
+lock=4
+t=ORDER
+v=
+
+[40]
+d=0
+k=ALIBI
+s=HARBOR
+n=3
+c=3
+o=-1
+key=B1
+q=IS A1 C1
+q=NOT A2 B1
+q=EITHER A1 C0 B0
+q=EITHER C0 B1 B0
+lock=1
+t=CHOICE 0
+v=
+
+[41]
+d=0
+k=MATRIX
+s=LAB
+n=3
+c=3
+o=-1
+key=B1
+q=IS A0 B2
+q=NOT B2 C1
+q=EITHER B1 C0 C1
+q=NOT A1 C1
+q=NOT A2 B1
+
+[42]
+d=0
+k=CIPHER
+s=OBSERVATORY
+n=3
+c=3
+o=-1
+key=B2
+q=IS B1 C1
+q=NOT B0 C0
+q=NOT A1 B0
+q=NOT A1 C1
+q=NOT A2 C1
+lock=2
+t=CHOICE 2
+v=CAESAR:1
+
+[43]
+d=0
+k=CONTRADICTION
+s=MANOR
+n=4
+c=3
+o=-1
+key=B1
+q=NOT B1 C3
+q=NOT A1 B3
+q=IS B3 C2
+q=IS A3 C3
+q=NOT A0 B3
+q=EITHER C0 B3 B0
+q=NOT A0 B0
+lock=1
+t=CHOICE 2
+v=
+
+[44]
+d=0
+k=MATRIX
+s=CAFE
+n=4
+c=3
+o=-1
+key=B0
+q=NOT A1 B2
+q=IS A1 C0
+q=NOT A3 C2
+q=NOT A0 B3
+q=IS B3 C3
+q=EITHER C1 B2 B0
+q=EITHER A3 B2 C1
+
+[45]
+d=0
+k=DOCUMENT
+s=TRAIN
+n=4
+c=3
+o=-1
+key=B0
+q=EITHER A2 C1 C3
+q=NOT A0 C0
+q=IS B3 C3
+q=IS A3 B1
+q=NOT A1 C2
+q=EITHER A0 C0 B3
+q=NOT A1 B0
+lock=6
+t=CHOICE 0
+v=
+
+[46]
+d=0
+k=VISUAL
+s=LIBRARY
+n=4
+c=3
+o=-1
+key=B0
+q=EITHER A2 B1 B3
+q=EITHER A3 C1 B1
+q=NOT B0 C2
+q=NOT A3 B1
+q=EITHER A2 B1 C0
+q=NOT A0 C2
+q=NOT B1 C2
+q=NOT A2 C3
+lock=3
+t=CHOICE 2
+v=CLOCK:4:10
+
+[47]
+d=0
+k=MATRIX
+s=MUSEUM
+n=4
+c=3
+o=-1
+key=B2
+q=NOT A0 B0
+q=NOT A3 C2
+q=NOT A2 C2
+q=NOT B3 C3
+q=EITHER A3 B2 B0
+q=EITHER A1 B3 C1
+q=IS A2 B3
+q=EITHER B0 C1 C2
+
+[48]
+d=0
+k=SEQUENCE
+s=THEATER
+n=4
+c=3
+o=-1
+key=B0
+q=EITHER C0 B3 B1
+q=EITHER A1 B1 C3
+q=NOT A2 C3
+q=NOT A0 C2
+q=EITHER A3 C3 C0
+q=EITHER A2 B1 C3
+q=NOT A0 B0
+lock=2
+t=ORDER
+v=
+
+[49]
+d=0
+k=ALIBI
+s=HOTEL
+n=4
+c=3
+o=-1
+key=B1
+q=EITHER A2 C3 C1
+q=NOT A3 C1
+q=NOT A2 C1
+q=NOT B0 C0
+q=EITHER A3 C3 B0
+q=NOT A2 B2
+q=EITHER B3 C1 C2
+q=IS A1 B3
+lock=5
+t=CHOICE 0
+v=
+
+[50]
+d=0
+k=CIPHER
+s=OFFICE
+n=4
+c=3
+o=-1
+key=B0
+q=EITHER B1 C0 C2
+q=EITHER A2 C1 B3
+q=IS A2 B3
+q=EITHER A0 C2 C3
+q=NOT A3 B1
+q=IS B2 C2
+lock=4
+t=CHOICE 2
+v=CAESAR:1
+
+[51]
+d=0
+k=MATRIX
+s=GARDEN
+n=4
+c=3
+o=-1
+key=B0
+q=NOT A3 B2
+q=EITHER A1 B3 C0
+q=EITHER A2 C2 C0
+q=IS A0 C1
+q=NOT A2 B1
+q=NOT B2 C0
+q=NOT A1 C2
+q=NOT A2 C2
+
+[52]
+d=0
+k=CONTRADICTION
+s=HARBOR
+n=4
+c=3
+o=-1
+key=B2
+q=IS A3 C0
+q=NOT B0 C1
+q=NOT A0 B1
+q=EITHER A0 C2 C3
+q=NOT A1 B3
+q=EITHER C1 B0 B3
+q=NOT B2 C2
+q=IS B1 C3
+lock=2
+t=CHOICE 0
+v=
+
+[53]
+d=0
+k=MATRIX
+s=LAB
+n=4
+c=3
+o=-1
+key=B0
+q=NOT B2 C0
+q=EITHER C2 B2 B3
+q=EITHER A1 B3 B0
+q=EITHER A3 B0 B2
+q=EITHER A2 B1 C3
+q=NOT B2 C2
+q=IS A1 C3
+
+[54]
+d=0
+k=ALIBI
+s=OBSERVATORY
+n=4
+c=3
+o=-1
+key=B1
+q=IS A3 B3
+q=NOT A1 B1
+q=NOT A1 C1
+q=NOT B3 C0
+q=IS A2 C2
+q=NOT A2 B2
+q=NOT B1 C2
+q=EITHER B3 C3 C0
+lock=1
+t=CHOICE 0
+v=
+
+[55]
+d=0
+k=CIPHER
+s=MANOR
+n=4
+c=3
+o=-1
+key=B0
+q=IS B1 C3
+q=NOT A2 C2
+q=IS A0 C3
+q=NOT B3 C1
+q=NOT A2 B2
+q=EITHER A3 B1 C1
+q=EITHER C1 B0 B3
+lock=4
+t=CHOICE 1
+v=NUMBERS
+
+[56]
+d=0
+k=MATRIX
+s=CAFE
+n=4
+c=3
+o=-1
+key=B2
+q=EITHER A2 C0 B2
+q=NOT A3 B0
+q=NOT A0 C2
+q=IS B0 C2
+q=IS B1 C0
+q=NOT B2 C1
+q=NOT A3 C1
+q=NOT A2 C0
+
+[57]
+d=0
+k=CONTRADICTION
+s=TRAIN
+n=4
+c=3
+o=-1
+key=B3
+q=EITHER A0 B1 B0
+q=EITHER B1 C2 C1
+q=NOT A2 C3
+q=NOT B2 C3
+q=EITHER B2 C3 C1
+q=IS A0 C0
+q=NOT A2 C2
+q=NOT A3 B1
+lock=7
+t=CHOICE 0
+v=
+
+[58]
+d=0
+k=DOCUMENT
+s=LIBRARY
+n=4
+c=3
+o=-1
+key=B0
+q=NOT A0 B1
+q=EITHER A1 B3 C0
+q=EITHER A1 C1 B0
+q=IS B3 C2
+q=IS A0 C1
+q=EITHER A2 C3 C0
+lock=0
+t=CHOICE 1
+v=
+
+[59]
+d=0
+k=VISUAL
+s=MUSEUM
+n=4
+c=3
+o=-1
+key=B1
+q=EITHER A3 B0 B3
+q=EITHER A0 C0 B3
+q=EITHER A0 B0 B2
+q=EITHER A1 B1 B2
+q=NOT A3 B3
+q=NOT A2 C2
+q=EITHER B0 C0 C1
+lock=4
+t=CHOICE 1
+v=TRAIL:5-4-3:1-2-6
+
+[60]
+d=0
+k=SEQUENCE
+s=THEATER
+n=4
+c=3
+o=-1
+key=B1
+q=IS A1 C2
+q=NOT A0 B1
+q=EITHER A2 C1 B2
+q=EITHER A2 B0 B3
+q=EITHER A0 B0 B1
+q=NOT A3 B2
+q=NOT A3 C0
+lock=6
+t=ORDER
+v=
+
+[61]
+d=1
+k=MATRIX
+s=HOTEL
+n=4
+c=3
+o=-1
+key=B3
+q=EITHER A0 C2 C1
+q=DIFF A2 B2 C2
+q=IS A1 B1
+q=IS A0 B2
+q=NOT B0 C0
+q=NOT B1 C2
+q=NOT A3 B0
+
+[62]
+d=1
+k=ALIBI
+s=OFFICE
+n=4
+c=3
+o=-1
+key=B3
+q=PAIR A1 A2 B2 C0
+q=DIFF A1 B1 C0
+q=PAIR B1 B3 C0 C3
+q=NOT A3 B1
+q=PAIR C1 C0 B2 B3
+lock=3
+t=CHOICE 0
+v=
+
+[63]
+d=1
+k=CIPHER
+s=GARDEN
+n=4
+c=3
+o=-1
+key=B2
+q=IS B0 C0
+q=IS A1 C1
+q=PAIR C1 C0 B0 B3
+q=NOT A3 B2
+q=DIFF A2 B2 C2
+lock=3
+t=CHOICE 1
+v=CAESAR:1
+
+[64]
+d=1
+k=MATRIX
+s=HARBOR
+n=4
+c=3
+o=-1
+key=B0
+q=EITHER A3 C3 B1
+q=EITHER B0 C0 C1
+q=NOT A1 C1
+q=PAIR A0 A3 B3 C3
+q=PAIR A0 A2 B3 C0
+
+[65]
+d=1
+k=CONTRADICTION
+s=LAB
+n=4
+c=3
+o=-1
+key=B3
+q=NOT A1 B1
+q=PAIR A1 A2 C0 C1
+q=PAIR A0 A1 B1 B0
+q=IS A2 C1
+q=DIFF A0 B2 C2
+lock=0
+t=CHOICE 1
+v=
+
+[66]
+d=1
+k=DOCUMENT
+s=OBSERVATORY
+n=4
+c=3
+o=-1
+key=B0
+q=IS A3 C3
+q=DIFF A1 B1 C2
+q=IS B2 C2
+q=DIFF A2 B1 C0
+q=NOT A1 B0
+q=PAIR A1 A2 B2 C1
+lock=4
+t=CHOICE 0
+v=
+
+[67]
+d=1
+k=MATRIX
+s=MANOR
+n=4
+c=3
+o=-1
+key=B1
+q=NOT A3 B0
+q=NOT A2 C3
+q=NOT A0 B0
+q=PAIR C1 C3 B1 B2
+q=PAIR C0 C3 B1 B0
+q=EITHER A2 C1 C3
+q=NOT A3 C2
+
+[68]
+d=1
+k=VISUAL
+s=CAFE
+n=4
+c=3
+o=-1
+key=B2
+q=NOT A2 B0
+q=PAIR C0 C1 B3 B0
+q=EITHER A1 B3 C0
+q=PAIR A0 A3 C3 C2
+q=EITHER A3 B3 B1
+q=DIFF A1 B2 C2
+lock=0
+t=CHOICE 3
+v=CLOCK:7:25
+
+[69]
+d=1
+k=SEQUENCE
+s=TRAIN
+n=4
+c=3
+o=-1
+key=B1
+q=NOT A2 C2
+q=DIFF A1 B2 C0
+q=EITHER A3 C3 C2
+q=IS A3 B2
+q=EITHER A1 B0 B2
+q=EITHER B1 C2 C3
+q=NOT A0 C3
+q=NOT A0 C2
+lock=0
+t=ORDER
+v=
+
+[70]
+d=1
+k=ALIBI
+s=LIBRARY
+n=4
+c=3
+o=-1
+key=B3
+q=DIFF A2 B2 C3
+q=PAIR B1 B2 C0 C1
+q=PAIR A2 A3 C2 C3
+q=NOT A2 B3
+q=DIFF A1 B1 C2
+q=EITHER A1 C0 C3
+lock=3
+t=CHOICE 0
+v=
+
+[71]
+d=1
+k=MATRIX
+s=MUSEUM
+n=4
+c=3
+o=-1
+key=B1
+q=NOT A2 C2
+q=PAIR C0 C1 B1 B2
+q=EITHER A0 B0 C3
+q=EITHER C0 B2 B0
+q=PAIR A0 A1 B2 C3
+
+[72]
+d=1
+k=CIPHER
+s=THEATER
+n=4
+c=3
+o=-1
+key=B0
+q=NOT B1 C3
+q=IS B3 C2
+q=DIFF A0 B1 C1
+q=EITHER A1 C3 C2
+q=NOT A2 C0
+q=EITHER A0 B2 C3
+lock=4
+t=CHOICE 2
+v=CAESAR:2
+
+[73]
+d=1
+k=CONTRADICTION
+s=HOTEL
+n=4
+c=4
+o=3
+key=B0
+q=NOT A1 B3
+q=NEXT A1 C2 D
+q=PAIR A0 A2 C3 D2
+q=PAIR A1 A2 D1 D3
+q=PAIR D2 D0 C1 B0
+q=PAIR B0 B2 D0 D2
+lock=0
+t=CHOICE 2
+v=
+
+[74]
+d=1
+k=MATRIX
+s=OFFICE
+n=4
+c=4
+o=3
+key=B0
+q=NOT C3 D2
+q=EITHER A2 C1 C2
+q=PAIR A0 A3 C2 B0
+q=NOT B2 D2
+q=NEXT C3 C2 D
+q=NEXT A3 C3 D
+q=IS A1 B1
+
+[75]
+d=1
+k=DOCUMENT
+s=GARDEN
+n=4
+c=4
+o=3
+key=B0
+q=NEXT B2 C3 D
+q=EITHER A3 D3 D0
+q=PAIR A0 A1 B3 D2
+q=NEXT B0 C2 D
+q=NOT A0 B0
+q=IS A0 D2
+q=LT A2 C0 D
+q=NOT C3 D3
+q=NOT C2 D2
+lock=4
+t=CHOICE 0
+v=
+
+[76]
+d=1
+k=VISUAL
+s=HARBOR
+n=4
+c=4
+o=3
+key=B2
+q=NOT A2 B0
+q=PAIR A1 A3 C2 D3
+q=PAIR B1 B0 C0 C2
+q=LT B1 B0 D
+q=LT C0 C3 D
+q=NEXT A0 A2 D
+q=DIFF B3 C1 D0
+q=NOT A1 B3
+q=NEXT B1 B2 D
+lock=0
+t=CHOICE 1
+v=CLOCK:4:40
+
+[77]
+d=1
+k=MATRIX
+s=LAB
+n=4
+c=4
+o=3
+key=B1
+q=LT B2 A2 D
+q=NOT A3 D2
+q=PAIR C3 C2 B0 D3
+q=NEXT A0 A1 D
+q=NEXT C1 A1 D
+q=LT B2 A3 D
+q=NEXT B3 C2 D
+q=PAIR A0 A1 B0 B2
+
+[78]
+d=1
+k=SEQUENCE
+s=OBSERVATORY
+n=4
+c=4
+o=3
+key=B0
+q=NEXT A3 C3 D
+q=NOT A2 D0
+q=NEXT B1 A1 D
+q=NOT B0 C1
+q=NOT A1 C2
+q=PAIR C1 C2 D2 D1
+q=NEXT A1 B2 D
+lock=4
+t=ORDER
+v=
+
+[79]
+d=1
+k=ALIBI
+s=MANOR
+n=4
+c=4
+o=3
+key=B2
+q=NOT A0 C3
+q=PAIR B1 B3 D0 C2
+q=IS B0 D1
+q=LT A0 A2 D
+q=NOT C1 D0
+q=DIFF B2 C3 D0
+q=LT B1 A3 D
+q=LT A1 A2 D
+q=EITHER A3 D2 C0
+q=NOT A2 B3
+lock=9
+t=CHOICE 2
+v=
+
+[80]
+d=1
+k=CIPHER
+s=CAFE
+n=4
+c=4
+o=3
+key=B3
+q=NEXT B0 A2 D
+q=PAIR C0 C3 B2 D3
+q=NOT A0 C3
+q=PAIR C0 C3 D2 B3
+q=NEXT A1 B0 D
+q=NOT A1 C1
+q=NEXT A2 A0 D
+lock=2
+t=CHOICE 2
+v=CAESAR:2
+
+[81]
+d=1
+k=MATRIX
+s=TRAIN
+n=4
+c=4
+o=3
+key=B0
+q=NEXT A3 B2 D
+q=NOT A1 D2
+q=NOT B0 C2
+q=NEXT B2 C0 D
+q=DIFF A2 C1 D0
+q=NEXT A0 B1 D
+q=DIFF B2 C2 D3
+q=NEXT B2 A1 D
+
+[82]
+d=1
+k=CONTRADICTION
+s=LIBRARY
+n=4
+c=4
+o=3
+key=B2
+q=NEXT A1 B1 D
+q=EITHER D3 C2 C3
+q=EITHER A1 B0 C2
+q=NOT A3 D3
+q=DIFF B2 C1 D1
+q=IS B0 C3
+q=IS C2 D1
+q=NOT A2 B0
+q=NOT A3 C1
+lock=7
+t=CHOICE 2
+v=
+
+[83]
+d=1
+k=MATRIX
+s=MUSEUM
+n=4
+c=4
+o=3
+key=B0
+q=NEXT C2 A1 D
+q=EITHER B2 D3 C3
+q=LT A2 A1 D
+q=IS B3 C2
+q=NEXT B0 C1 D
+q=NOT A2 C1
+q=NEXT A0 C0 D
+q=LT A3 C0 D
+
+[84]
+d=1
+k=ALIBI
+s=THEATER
+n=4
+c=4
+o=3
+key=B1
+q=LT B1 A2 D
+q=PAIR C0 C1 B3 D2
+q=NOT A3 D1
+q=PAIR B0 B2 D2 C2
+q=NEXT A3 B0 D
+q=NOT A0 B3
+q=NEXT C0 C3 D
+lock=5
+t=CHOICE 0
+v=
+
+[85]
+d=1
+k=CIPHER
+s=HOTEL
+n=5
+c=3
+o=-1
+key=B3
+q=PAIR B0 B4 C2 C3
+q=EITHER A0 C0 B2
+q=EITHER A4 C2 B3
+q=NOT A1 B4
+q=PAIR A2 A4 B1 B3
+q=DIFF A1 B3 C1
+q=EITHER A1 B3 C3
+q=DIFF A1 B3 C0
+lock=3
+t=CHOICE 2
+v=NUMBERS
+
+[86]
+d=1
+k=MATRIX
+s=OFFICE
+n=5
+c=3
+o=-1
+key=B1
+q=IS B0 C3
+q=EITHER C0 B0 B1
+q=NOT A2 C1
+q=NOT B3 C1
+q=EITHER C4 B0 B2
+q=EITHER A0 B0 B2
+q=EITHER A4 B4 B1
+q=PAIR A3 A4 C4 C0
+
+[87]
+d=1
+k=CONTRADICTION
+s=GARDEN
+n=5
+c=3
+o=-1
+key=B2
+q=NOT A4 B2
+q=PAIR C2 C1 B3 B4
+q=EITHER C2 B4 B0
+q=NOT A0 C3
+q=EITHER B2 C3 C2
+q=EITHER A4 B2 B0
+q=NOT A1 B1
+q=PAIR A1 A3 C1 C4
+lock=0
+t=CHOICE 1
+v=
+
+[88]
+d=1
+k=DOCUMENT
+s=HARBOR
+n=5
+c=3
+o=-1
+key=B1
+q=IS A4 C1
+q=DIFF A1 B1 C3
+q=IS A4 B4
+q=EITHER A2 B0 C2
+q=PAIR A3 A4 C4 C1
+q=NOT A3 B1
+q=NOT A0 C0
+q=NOT B3 C4
+q=EITHER A0 B2 C0
+lock=5
+t=CHOICE 2
+v=
+
+[89]
+d=1
+k=VISUAL
+s=LAB
+n=5
+c=3
+o=-1
+key=B3
+q=IS B4 C4
+q=EITHER B1 C0 C2
+q=EITHER B2 C4 C3
+q=EITHER A3 C1 C0
+q=EITHER A2 B0 B2
+q=PAIR A0 A4 B1 C2
+q=PAIR B3 B4 C4 C2
+q=NOT A0 B1
+lock=7
+t=CHOICE 1
+v=TRAIL:5-3-4:2-1-6
+
+[90]
+d=1
+k=SEQUENCE
+s=OBSERVATORY
+n=5
+c=3
+o=-1
+key=B4
+q=DIFF A4 B3 C0
+q=PAIR A2 A4 B1 B4
+q=DIFF A3 B1 C3
+q=NOT A4 C1
+q=PAIR A0 A2 B0 B4
+q=EITHER B3 C0 C3
+q=EITHER A3 C0 C3
+q=EITHER B4 C0 C2
+lock=3
+t=ORDER
+v=
+
+[91]
+d=2
+k=MATRIX
+s=MANOR
+n=5
+c=3
+o=-1
+key=B3
+q=EITHER C2 B4 B0
+q=NOT B0 C0
+q=NOT A2 B4
+q=EITHER A2 C0 B2
+q=PAIR A0 A4 C4 B3
+q=EITHER A0 C2 B2
+q=DIFF A4 B4 C1
+q=NOT A1 C1
+
+[92]
+d=2
+k=ALIBI
+s=CAFE
+n=5
+c=3
+o=-1
+key=B1
+q=IS A3 C2
+q=EITHER A4 C3 B4
+q=EITHER C2 B0 B3
+q=NOT A0 B0
+q=NOT A1 C1
+q=DIFF A2 B1 C4
+q=PAIR A0 A4 C4 B4
+q=EITHER B0 C3 C4
+lock=3
+t=CHOICE 1
+v=
+
+[93]
+d=2
+k=CIPHER
+s=TRAIN
+n=5
+c=3
+o=-1
+key=B0
+q=EITHER A3 B4 C1
+q=EITHER B3 C1 C4
+q=PAIR C4 C0 B2 B3
+q=EITHER B4 C3 C4
+q=NOT A4 B3
+q=IS A2 B2
+q=EITHER B0 C1 C3
+q=NOT A4 C1
+q=NOT A0 B3
+q=EITHER A3 B4 C4
+lock=4
+t=CHOICE 2
+v=CAESAR:1
+
+[94]
+d=2
+k=MATRIX
+s=LIBRARY
+n=5
+c=3
+o=-1
+key=B4
+q=NOT A3 C4
+q=NOT B2 C3
+q=EITHER B3 C2 C4
+q=EITHER A0 C0 C3
+q=NOT B3 C4
+q=EITHER A2 B2 C0
+q=NOT B1 C3
+q=PAIR A1 A2 C2 B0
+q=NOT A4 B2
+
+[95]
+d=2
+k=CONTRADICTION
+s=MUSEUM
+n=5
+c=3
+o=-1
+key=B4
+q=NOT A1 B4
+q=EITHER A1 B2 C4
+q=DIFF A0 B4 C3
+q=DIFF A4 B3 C1
+q=DIFF A4 B2 C0
+q=EITHER A2 B3 C3
+q=PAIR C4 C0 B4 B3
+q=PAIR A1 A2 C4 B0
+lock=0
+t=CHOICE 2
+v=
+
+[96]
+d=2
+k=DOCUMENT
+s=THEATER
+n=5
+c=3
+o=-1
+key=B2
+q=EITHER A3 C0 B1
+q=EITHER A1 C4 B1
+q=EITHER A2 B3 C2
+q=EITHER A0 C0 B2
+q=PAIR B3 B4 C1 C0
+q=DIFF A1 B4 C2
+q=NOT A0 B4
+q=EITHER B1 C4 C2
+q=EITHER A4 C2 C3
+lock=6
+t=CHOICE 0
+v=
+
+[97]
+d=2
+k=MATRIX
+s=HOTEL
+n=5
+c=3
+o=-1
+key=B2
+q=EITHER A2 B0 B4
+q=DIFF A0 B2 C2
+q=EITHER A3 C1 B3
+q=NOT A0 B4
+q=DIFF A1 B4 C4
+q=DIFF A2 B3 C2
+q=EITHER A0 B2 C0
+q=EITHER A4 B1 C3
+q=DIFF A3 B4 C1
+
+[98]
+d=2
+k=VISUAL
+s=OFFICE
+n=5
+c=3
+o=-1
+key=B3
+q=NOT A0 B4
+q=DIFF A1 B3 C3
+q=PAIR C1 C3 B3 B1
+q=DIFF A2 B4 C2
+q=DIFF A2 B1 C0
+q=EITHER A3 B1 C1
+q=DIFF A1 B2 C4
+q=DIFF A0 B1 C0
+q=DIFF A0 B3 C0
+q=EITHER A3 B3 C4
+lock=0
+t=CHOICE 3
+v=CLOCK:8:40
+
+[99]
+d=2
+k=SEQUENCE
+s=GARDEN
+n=5
+c=3
+o=-1
+key=B4
+q=NOT A1 B4
+q=DIFF A2 B1 C2
+q=NOT A1 B0
+q=PAIR C1 C4 B0 B2
+q=NOT A1 C3
+q=EITHER A0 C0 B3
+q=EITHER A0 C4 B1
+q=DIFF A4 B0 C0
+q=DIFF A3 B3 C1
+q=EITHER A2 B2 C2
+lock=4
+t=ORDER
+v=
+
+[100]
+d=2
+k=ALIBI
+s=HARBOR
+n=5
+c=3
+o=-1
+key=B1
+q=PAIR A2 A4 B2 C2
+q=PAIR B2 B3 C3 C4
+q=DIFF A0 B3 C2
+q=EITHER A1 C1 B4
+q=DIFF A3 B0 C4
+q=NOT A4 B4
+q=EITHER A2 C3 C4
+q=EITHER A1 C4 B0
+lock=5
+t=CHOICE 2
+v=
+
+[101]
+d=2
+k=MATRIX
+s=LAB
+n=5
+c=3
+o=-1
+key=B3
+q=EITHER A3 B4 C3
+q=EITHER A1 B2 C2
+q=EITHER A2 C4 C0
+q=NOT A0 C2
+q=EITHER A3 B3 C1
+q=EITHER A4 B4 C0
+q=PAIR C2 C4 B3 B2
+q=IS B1 C0
+
+[102]
+d=2
+k=CIPHER
+s=OBSERVATORY
+n=5
+c=3
+o=-1
+key=B3
+q=PAIR C4 C3 B2 B4
+q=DIFF A1 B4 C2
+q=NOT A1 C1
+q=EITHER A0 C0 B2
+q=EITHER A4 B2 B1
+q=PAIR C4 C1 B2 B0
+q=NOT A1 B3
+q=DIFF A3 B0 C0
+lock=6
+t=CHOICE 0
+v=CAESAR:3
+
+[103]
+d=2
+k=CONTRADICTION
+s=MANOR
+n=5
+c=3
+o=-1
+key=B1
+q=NOT A2 B0
+q=PAIR A2 A4 B4 C1
+q=NOT B3 C2
+q=EITHER A0 C3 B3
+q=DIFF A0 B3 C1
+q=EITHER A4 B4 C4
+q=PAIR A0 A3 B1 C3
+q=NOT A4 C2
+lock=0
+t=CHOICE 1
+v=
+
+[104]
+d=2
+k=MATRIX
+s=CAFE
+n=5
+c=3
+o=-1
+key=B4
+q=EITHER B2 C1 C4
+q=EITHER A1 B4 C4
+q=NOT A3 C3
+q=NOT A4 B0
+q=EITHER A0 B3 C4
+q=EITHER A4 C4 C2
+q=PAIR A0 A2 B1 C0
+q=PAIR B3 B1 C1 C0
+
+[105]
+d=2
+k=DOCUMENT
+s=TRAIN
+n=4
+c=4
+o=3
+key=B0
+q=LT C2 B0 D
+q=DIFF A2 B3 C3
+q=NEXT B3 A0 D
+q=NOT B1 D1
+q=LT A1 C1 D
+q=DIFF A2 C0 D3
+q=EITHER C1 B1 D2
+q=IS C2 D1
+q=NOT A3 B1
+lock=8
+t=CHOICE 2
+v=
+
+[106]
+d=2
+k=VISUAL
+s=LIBRARY
+n=4
+c=4
+o=3
+key=B2
+q=NOT A0 B1
+q=NEXT A3 C2 D
+q=LT A3 B0 D
+q=NEXT C1 A0 D
+q=EITHER A3 B1 C0
+q=PAIR A1 A3 C0 D2
+q=EITHER B0 C1 C0
+q=LT B3 B0 D
+q=DIFF A2 B2 C1
+lock=0
+t=CHOICE 1
+v=CLOCK:5:50
+
+[107]
+d=2
+k=MATRIX
+s=MUSEUM
+n=4
+c=4
+o=3
+key=B0
+q=NEXT B1 C1 D
+q=NEXT C0 A3 D
+q=DIFF B1 C3 D2
+q=PAIR A0 A1 B3 C3
+q=NOT A0 B3
+q=EITHER B2 C0 C2
+
+[108]
+d=2
+k=SEQUENCE
+s=THEATER
+n=4
+c=4
+o=3
+key=B3
+q=NEXT C3 A2 D
+q=NEXT B0 A2 D
+q=LT A0 B0 D
+q=NEXT C2 A3 D
+q=NOT A1 C0
+q=NOT A0 B3
+q=NEXT A3 B2 D
+q=EITHER C1 B2 B0
+lock=4
+t=ORDER
+v=
+
+[109]
+d=2
+k=ALIBI
+s=HOTEL
+n=4
+c=4
+o=3
+key=B2
+q=NOT A2 B1
+q=NEXT C0 C3 D
+q=DIFF B2 C1 D3
+q=PAIR A1 A3 B2 C0
+q=PAIR A1 A2 B0 D0
+q=EITHER C0 D1 B0
+lock=0
+t=CHOICE 1
+v=
+
+[110]
+d=2
+k=CIPHER
+s=OFFICE
+n=4
+c=4
+o=3
+key=B2
+q=NOT A1 D2
+q=NOT A0 C2
+q=PAIR D3 D0 C3 B2
+q=PAIR A1 A2 B0 D1
+q=LT B3 C2 D
+q=LT A1 C1 D
+q=NOT A3 C2
+q=DIFF A1 B2 C2
+q=LT C0 A0 D
+q=NOT B1 D0
+lock=1
+t=CHOICE 1
+v=CAESAR:2
+
+[111]
+d=2
+k=MATRIX
+s=GARDEN
+n=5
+c=4
+o=3
+key=B1
+q=IS B3 D4
+q=EITHER D1 B4 B2
+q=EITHER D4 C3 C4
+q=LT C4 B4 D
+q=NEXT B2 A4 D
+q=NEXT A1 A3 D
+q=NOT B2 D3
+q=EITHER B1 C2 D0
+q=NOT A0 D4
+q=NEXT C2 C0 D
+q=PAIR D4 D2 C3 C0
+q=LT A1 A2 D
+q=EITHER D2 B1 B0
+
+[112]
+d=2
+k=CONTRADICTION
+s=HARBOR
+n=5
+c=4
+o=3
+key=B2
+q=DIFF A4 C1 D0
+q=EITHER A0 D1 D3
+q=PAIR C0 C1 D0 B4
+q=LT B0 B2 D
+q=PAIR C2 C4 D1 B1
+q=EITHER A4 D2 C4
+q=NEXT A3 C3 D
+q=LT A2 C2 D
+q=PAIR A1 A4 C2 B3
+q=EITHER B1 D4 D3
+q=DIFF A4 C1 D4
+q=NOT A0 B4
+lock=11
+t=CHOICE 2
+v=
+
+[113]
+d=2
+k=MATRIX
+s=LAB
+n=5
+c=4
+o=3
+key=B4
+q=EITHER A1 D0 D2
+q=EITHER C4 D1 B2
+q=IS B3 C2
+q=LT C4 A2 D
+q=DIFF A0 B2 D0
+q=DIFF B1 C3 D1
+q=PAIR A3 A4 C3 B4
+q=LT C1 A2 D
+q=NOT A2 C2
+q=NEXT A2 C3 D
+q=NEXT C1 B0 D
+q=NEXT A4 B0 D
+q=LT C4 B1 D
+
+[114]
+d=2
+k=ALIBI
+s=OBSERVATORY
+n=5
+c=4
+o=3
+key=B3
+q=EITHER A0 B2 C3
+q=LT C4 A4 D
+q=EITHER A1 B4 D1
+q=LT B0 A4 D
+q=PAIR B1 B4 D0 C0
+q=EITHER B0 C0 D2
+q=EITHER B1 C4 C3
+q=NOT A2 C2
+q=EITHER C4 B3 B2
+q=EITHER A1 D3 B3
+q=NEXT B2 C2 D
+q=NOT A0 B2
+lock=11
+t=CHOICE 0
+v=
+
+[115]
+d=2
+k=CIPHER
+s=MANOR
+n=5
+c=4
+o=3
+key=B3
+q=IS A3 B4
+q=DIFF A1 B4 C3
+q=NEXT B3 B2 D
+q=PAIR C2 C1 D4 D1
+q=EITHER D4 C1 B0
+q=NEXT C3 B0 D
+q=NEXT A2 A1 D
+q=LT C3 C0 D
+q=NOT A4 B0
+q=NOT A0 D2
+q=EITHER C4 B4 B3
+q=LT B3 B4 D
+q=LT A0 A4 D
+q=DIFF A1 C1 D3
+lock=8
+t=CHOICE 1
+v=CAESAR:1
+
+[116]
+d=2
+k=MATRIX
+s=CAFE
+n=5
+c=4
+o=3
+key=B0
+q=EITHER A3 C0 B3
+q=LT C0 A0 D
+q=NEXT B0 A1 D
+q=EITHER A0 B2 B1
+q=NOT B1 D3
+q=EITHER A0 C1 B3
+q=LT B4 A4 D
+q=PAIR A2 A4 D4 D0
+q=DIFF B2 C0 D2
+q=EITHER C3 B3 D3
+q=DIFF B0 C0 D3
+q=LT C4 A0 D
+q=DIFF A4 B3 C1
+
+[117]
+d=2
+k=CONTRADICTION
+s=TRAIN
+n=5
+c=4
+o=3
+key=B2
+q=LT C3 A0 D
+q=LT B4 B0 D
+q=NEXT B4 A0 D
+q=NEXT C2 C4 D
+q=EITHER B3 C1 D1
+q=PAIR B2 B4 C0 C1
+q=NOT A1 B0
+q=NEXT A3 A4 D
+q=EITHER D3 B4 B1
+q=DIFF A3 B2 C1
+lock=6
+t=CHOICE 0
+v=
+
+[118]
+d=2
+k=DOCUMENT
+s=LIBRARY
+n=5
+c=4
+o=3
+key=B4
+q=PAIR B1 B0 D2 D4
+q=NEXT A3 C3 D
+q=NEXT B2 B0 D
+q=EITHER C1 D2 D0
+q=EITHER A0 B1 B2
+q=NEXT B3 C2 D
+q=LT A4 C0 D
+q=NEXT A2 A4 D
+q=NOT A3 C0
+q=NOT A2 B2
+q=DIFF A2 C4 D3
+q=EITHER D4 C1 B1
+q=NOT A1 D0
+lock=9
+t=CHOICE 2
+v=
+
+[119]
+d=2
+k=VISUAL
+s=MUSEUM
+n=5
+c=4
+o=3
+key=B1
+q=EITHER C1 D2 B2
+q=PAIR C0 C2 B0 D0
+q=NEXT B1 A4 D
+q=NOT A2 B1
+q=NOT A1 C3
+q=PAIR B2 B0 D4 D1
+q=PAIR A1 A3 B2 D3
+q=EITHER C1 B2 D3
+q=NEXT B3 A3 D
+q=NEXT C2 B4 D
+lock=3
+t=CHOICE 1
+v=TRAIL:2-4-5:3-1-6
+
+[120]
+d=2
+k=SEQUENCE
+s=THEATER
+n=5
+c=4
+o=3
+key=B1
+q=PAIR B2 B0 C4 C3
+q=NEXT B3 B4 D
+q=LT B2 A1 D
+q=EITHER A4 C1 C2
+q=NEXT B2 B1 D
+q=EITHER B2 C1 C3
+q=PAIR D2 D1 C2 C0
+q=NEXT A0 A3 D
+q=NOT A1 C4
+q=NEXT A0 C2 D
+lock=8
+t=ORDER
+v=

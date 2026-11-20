@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Deductive: Case Files</string>
+    <string name="tagline">Examine the evidence, test alibis, and find the culprit.</string>
+    <string name="back">Back</string>
+    <string name="close">Close</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_cases">Cases</string>
+    <string name="nav_settings">Settings</string>
+
+    <string name="home_continue">Continue · Case %1$d</string>
+    <string name="home_new">New case</string>
+    <string name="home_collection">Case collection</string>
+    <string name="home_settings">Settings</string>
+    <string name="home_progress">Solved %1$d of %2$d</string>
+    <string name="home_stars">Stars earned: %1$d of %2$d</string>
+    <string name="home_all_done">Every case is closed. Replay any of them from the collection.</string>
+
+    <string name="cases_title">Case collection</string>
+    <string name="filter_all">All</string>
+    <string name="diff_easy">Easy</string>
+    <string name="diff_medium">Medium</string>
+    <string name="diff_hard">Hard</string>
+    <string name="kind_matrix">Logic matrix</string>
+    <string name="kind_alibi">Alibi analysis</string>
+    <string name="kind_contradiction">Contradictions</string>
+    <string name="kind_cipher">Cipher</string>
+    <string name="kind_document">Document</string>
+    <string name="kind_visual">Visual puzzle</string>
+    <string name="kind_sequence">Order of events</string>
+    <string name="cats_n">%1$d categories</string>
+    <string name="status_new">Not started</string>
+    <string name="status_started">In progress</string>
+    <string name="status_solved">Solved</string>
+
+    <string name="case_n">Case %1$d</string>
+    <string name="tab_brief">Case file</string>
+    <string name="tab_investigate">Investigation</string>
+    <string name="section_fact">Key fact</string>
+    <string name="section_task">Special evidence</string>
+    <string name="task_todo">Solve it to unlock one more clue.</string>
+    <string name="task_done">Solved. The clue is unlocked.</string>
+    <string name="to_investigation">Start investigating</string>
+    <string name="hint">Hint</string>
+    <string name="check">Check</string>
+    <string name="restart">Start over</string>
+    <string name="restart_title">Start the case over?</string>
+    <string name="restart_body">All marks in the matrix, the special evidence and the hint counter of this case will be cleared.</string>
+
+    <string name="grid_empty">empty</string>
+    <string name="grid_no">no</string>
+    <string name="grid_yes">yes</string>
+    <string name="grid_help">Tap a cell: ✕ — ruled out, ✓ — confirmed, a third tap clears it.</string>
+    <string name="grid_pan">Swipe the matrix sideways to see every column.</string>
+    <string name="clues_title">Evidence</string>
+    <string name="clue_n">Clue %1$d</string>
+    <string name="clue_locked">Locked clue. Solve the special evidence to read it.</string>
+
+    <string name="check_errors">Marks that contradict the evidence: %1$d. They are highlighted.</string>
+    <string name="check_incomplete">No mistakes so far. Put a ✓ for every suspect in each category to finish.</string>
+    <string name="accuse_title">Who is guilty?</string>
+    <string name="accuse_body">The matrix is correct. Now use the key fact to name the culprit.</string>
+    <string name="accuse_wrong_title">Not so fast</string>
+    <string name="accuse_wrong_body">Being somewhere is not the same as being guilty. Read the key fact again and match it with the matrix.</string>
+
+    <string name="hint_apply">Mark it</string>
+    <string name="hint_errors">Some marks contradict the evidence. They are highlighted in the matrix — fix them first.</string>
+    <string name="hint_need_task">Nothing more follows from the open clues. Solve the special evidence to unlock the last one.</string>
+    <string name="hint_none">Everything that can be deduced is already in the matrix. Tap “Check”.</string>
+    <string name="task_open">Open</string>
+
+    <string name="rule_clue">Clue %1$d says it directly: %2$s.</string>
+    <string name="rule_logic">Clue %1$d together with the marks you already have gives: %2$s.</string>
+    <string name="rule_taken">%1$s is already paired with %2$s, so: %3$s.</string>
+    <string name="rule_only">Only one option is left for “%1$s” in “%2$s”: %3$s.</string>
+    <string name="rule_link">%1$s and %2$s belong together, so what is known about one holds for the other: %3$s.</string>
+    <string name="rule_nocommon">None of the remaining options for “%1$s” in “%2$s” can go with “%3$s”, so: %4$s.</string>
+    <string name="rule_contra">Assume the opposite and the clues run into a contradiction. Therefore: %1$s.</string>
+
+    <string name="task_answer">Answer</string>
+    <string name="task_order_help">Tap the events in the order they happened. Tap a numbered one to undo.</string>
+    <string name="task_wrong">That does not fit the evidence. Look again.</string>
+    <string name="task_correct">Correct!</string>
+    <string name="task_new_clue">New clue:</string>
+    <string name="task_back">Back to the investigation</string>
+
+    <string name="result_title">Case closed!</string>
+    <string name="result_stars">Rating: %1$d of 3 stars</string>
+    <string name="result_stats">Hints used: %1$d · Mistakes: %2$d</string>
+    <string name="result_culprit">The culprit</string>
+    <string name="result_fact_note">Presence alone proves nothing — guilt follows from this fact.</string>
+    <string name="result_solution">Full solution</string>
+    <string name="result_explanation">How it is deduced</string>
+    <string name="result_final">Key fact: the crime is tied to “%1$s”. The matrix links it to %2$s — that is the culprit.</string>
+    <string name="result_epilogue">Epilogue</string>
+    <string name="result_next">Next case</string>
+    <string name="result_collection">Collection</string>
+    <string name="result_replay">Replay the case</string>
+
+    <string name="settings_title">Settings</string>
+    <string name="set_language">Language</string>
+    <string name="set_theme">Theme</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="set_animations">Animations</string>
+    <string name="set_animations_sub">Screen transitions and touch feedback</string>
+    <string name="set_sounds">Sounds</string>
+    <string name="set_sounds_sub">Soft clicks and result chimes</string>
+    <string name="set_reset">Reset progress</string>
+    <string name="set_reset_sub">Erases solved cases, stars and all marks. Settings are kept.</string>
+    <string name="reset_title">Reset all progress?</string>
+    <string name="reset_body">Every case will return to “not started”. This cannot be undone.</string>
+    <string name="reset_done">Progress has been reset.</string>
+    <string name="about">Deductive: Case Files 1.0 · 120 offline cases · no ads, no network</string>
+
+    <string name="next">Next</string>
+    <string name="tour_title">How to play</string>
+    <string name="tour_offer_title">Welcome, detective!</string>
+    <string name="tour_offer_body">Take a two-minute tour: on one tiny case we will show how to read the clues, fill in the matrix and name the culprit. You can always open it later from the home screen.</string>
+    <string name="tour_start">Take the tour</string>
+    <string name="tour_later">Later</string>
+    <string name="tour_intro1">Every case has several suspects. Each of them was in exactly one place and had exactly one thing, and no place or thing is shared. The matrix helps you work out who goes with what.</string>
+    <string name="tour_intro2">A cell where two names cross asks: “do these two belong together?” ✕ means no, ✓ means yes. One tap puts ✕, a second tap puts ✓, a third clears the cell. Now we go through the clues one by one.</string>
+    <string name="tour_tap_no">Tap the highlighted cell once to put ✕.</string>
+    <string name="tour_tap_yes">Tap the highlighted cell twice to put ✓. The rest of its row and column is crossed out automatically.</string>
+    <string name="tour_do_it">Do it for me</string>
+    <string name="tour_after">The matrix is complete. In real cases “Hint” explains the next logical step and “Check” highlights mistakes. Some cases also have a piece of special evidence — a cipher, an alibi, a picture — that unlocks one more clue.</string>
+    <string name="tour_fact">The matrix only shows who was where. Guilt follows from the key fact — match it with the matrix and name the culprit.</string>
+    <string name="tour_accuse">Name the culprit</string>
+    <string name="tour_done">Well done — that is all there is to it. Harder cases add more suspects, a fourth category and trickier clues, but the reasoning stays the same.</string>
+    <string name="tour_first_case">Open the first case</string>
+</resources>

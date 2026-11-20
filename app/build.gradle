@@ -1,0 +1,45 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.ccs.deductive_case_files'
+    compileSdk 36
+
+    defaultConfig {
+        applicationId 'com.ccs.deductive_case_files'
+        minSdk 26
+        targetSdk 36
+        versionCode 1
+        versionName '1.0'
+    }
+    androidResources { localeFilters += ['en', 'uk'] }
+
+    def releaseSigning = ['DCF_KEYSTORE', 'DCF_KEY_ALIAS', 'DCF_STORE_PASSWORD', 'DCF_KEY_PASSWORD']
+            .collectEntries { [(it): providers.environmentVariable(it).orNull] }
+    def hasReleaseSigning = releaseSigning.values().every { it }
+    signingConfigs {
+        if (hasReleaseSigning) {
+            release {
+                storeFile file(releaseSigning.DCF_KEYSTORE)
+                keyAlias releaseSigning.DCF_KEY_ALIAS
+                storePassword releaseSigning.DCF_STORE_PASSWORD
+                keyPassword releaseSigning.DCF_KEY_PASSWORD
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            if (hasReleaseSigning) signingConfig signingConfigs.release
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+    buildFeatures { buildConfig false }
+    lint { checkReleaseBuilds false; abortOnError false }
+}
+// No dependencies: the game uses only the Android framework.

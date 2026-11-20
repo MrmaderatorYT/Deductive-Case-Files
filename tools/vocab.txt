@@ -1,0 +1,492 @@
+# Vocabulary for tools/ContentGen.java (development-time only, not shipped).
+# @SCENE starts a setting.
+# P label_uk|locative_uk|label_en|locative_en
+# I label_uk|accusative_uk|genitive_uk|label_en
+# R m|role_uk|role_en      (m = male role, f = female role)
+# L title_uk|title_en|intro_uk|intro_en
+# N m|name_uk|name_en      (global name bank)
+
+N m|Андрій|Andriy
+N m|Богдан|Bohdan
+N m|Василь|Vasyl
+N m|Гліб|Hlib
+N m|Данило|Danylo
+N m|Захар|Zakhar
+N m|Ілля|Illya
+N m|Кирило|Kyrylo
+N m|Лука|Luka
+N m|Максим|Maksym
+N m|Назар|Nazar
+N m|Остап|Ostap
+N m|Павло|Pavlo
+N m|Роман|Roman
+N m|Степан|Stepan
+N m|Тарас|Taras
+N m|Юрій|Yuriy
+N m|Ярема|Yarema
+N m|Орест|Orest
+N m|Федір|Fedir
+N f|Алла|Alla
+N f|Божена|Bozhena
+N f|Віра|Vira
+N f|Галина|Halyna
+N f|Дарина|Daryna
+N f|Зоя|Zoya
+N f|Ірина|Iryna
+N f|Катерина|Kateryna
+N f|Леся|Lesya
+N f|Марта|Marta
+N f|Ніна|Nina
+N f|Оксана|Oksana
+N f|Поліна|Polina
+N f|Роксолана|Roksolana
+N f|Соломія|Solomiya
+N f|Тетяна|Tetyana
+N f|Уляна|Ulyana
+N f|Христина|Khrystyna
+N f|Яна|Yana
+N f|Емілія|Emiliya
+
+@MANOR
+P Бібліотека|у бібліотеці|Library|in the library
+P Вітальня|у вітальні|Parlour|in the parlour
+P Кухня|на кухні|Kitchen|in the kitchen
+P Горище|на горищі|Attic|in the attic
+P Льох|у льоху|Cellar|in the cellar
+P Веранда|на веранді|Veranda|on the veranda
+P Кабінет|у кабінеті|Study|in the study
+I Свічка|свічку|свічки|Candle
+I Кочерга|кочергу|кочерги|Poker
+I Ліхтар|ліхтар|ліхтаря|Lantern
+I Мотузка|мотузку|мотузки|Rope
+I Парасоля|парасолю|парасолі|Umbrella
+I Саквояж|саквояж|саквояжа|Valise
+I Лупа|лупу|лупи|Magnifier
+I Молоток|молоток|молотка|Hammer
+R m|дворецький|butler
+R m|садівник|gardener
+R m|конюх|groom
+R m|кухар|cook
+R m|небіж господаря|the master's nephew
+R m|сімейний лікар|family doctor
+R f|економка|housekeeper
+R f|покоївка|maid
+R f|гувернантка|governess
+R f|кухарка|cook
+R f|племінниця господаря|the master's niece
+R f|компаньйонка|companion
+L Срібний сервіз|The Silver Service|Із буфета старого маєтку зник фамільний срібний сервіз.|The family silver service has vanished from the sideboard of an old manor.
+L Портрет прабабусі|Great-Grandmother's Portrait|Зі стіни маєтку зник портрет прабабусі пензля відомого майстра.|A portrait of the great-grandmother, painted by a famous master, is gone from the manor wall.
+L Лист із печаткою|The Sealed Letter|Із секретера господаря зник лист із гербовою печаткою.|A letter with a crested seal has disappeared from the master's writing desk.
+L Мисливський ріг|The Hunting Horn|З мисливської зали маєтку зник старовинний ріг, оздоблений сріблом.|An antique silver-mounted horn is missing from the manor's hunting hall.
+L Шкатулка з листами|The Box of Letters|У маєтку зникла шкатулка з листами, які нікому не слід було читати.|A box of letters nobody was supposed to read has vanished from the manor.
+L Ключ від сейфа|The Safe Key|У маєтку зник єдиний ключ від сейфа з родинними паперами.|The only key to the safe with the family papers has gone missing at the manor.
+L Годинник із зозулею|The Cuckoo Clock|Зі сходів маєтку зник різьблений годинник із зозулею, привезений зі Швейцарії.|A carved cuckoo clock brought from Switzerland has vanished from the manor staircase.
+L Колекція монет|The Coin Collection|Із шухляди господаря зникла колекція старовинних монет.|A collection of old coins has disappeared from the master's drawer.
+
+@CAFE
+P Зала|у залі|Dining room|in the dining room
+P Кухня|на кухні|Kitchen|in the kitchen
+P Комора|у коморі|Pantry|in the pantry
+P Тераса|на терасі|Terrace|on the terrace
+P Бар|за баром|Bar|behind the bar
+P Двір|у дворі|Yard|in the yard
+P Льох|у льоху|Cellar|in the cellar
+I Таця|тацю|таці|Tray
+I Фартух|фартух|фартуха|Apron
+I Ліхтарик|ліхтарик|ліхтарика|Flashlight
+I Ополоник|ополоник|ополоника|Ladle
+I Штопор|штопор|штопора|Corkscrew
+I Рушник|рушник|рушника|Towel
+I Меню|меню|меню|Menu
+I Кошик|кошик|кошика|Basket
+R m|бариста|barista
+R m|кондитер|pastry chef
+R m|офіціант|waiter
+R m|постачальник|supplier
+R m|кухар|cook
+R m|власник закладу|owner
+R f|бариста|barista
+R f|кондитерка|pastry chef
+R f|офіціантка|waitress
+R f|адміністраторка|hostess
+R f|кухарка|cook
+R f|власниця закладу|owner
+L Книга рецептів|The Recipe Book|Із кухні ресторану зникла рукописна книга рецептів шефа.|The chef's handwritten recipe book has vanished from the restaurant kitchen.
+L Мідний кавник|The Copper Coffee Pot|З полиці кав'ярні зник старовинний мідний кавник — талісман закладу.|The café's lucky charm, an antique copper coffee pot, is gone from its shelf.
+L Вечірня каса|The Evening Till|Після закриття з каси кав'ярні зникла вся вечірня виручка.|After closing time the whole evening's takings vanished from the café till.
+L Пляшка столітнього вина|The Century-Old Bottle|З винної полиці ресторану зникла пляшка столітнього вина.|A hundred-year-old bottle of wine has disappeared from the restaurant's rack.
+L Срібна цукорниця|The Silver Sugar Bowl|Зі столика біля вікна зникла срібна цукорниця, подарунок першого гостя.|A silver sugar bowl, a gift from the very first guest, is gone from the window table.
+L Трюфель до свята|The Festive Truffle|Напередодні бенкету з ресторану зник рідкісний білий трюфель.|On the eve of the banquet a rare white truffle vanished from the restaurant.
+L Вивіска з підписом|The Signed Signboard|Зі стіни кав'ярні зникла вивіска з автографом відомого поета.|A signboard autographed by a famous poet has disappeared from the café wall.
+L Скарбничка для чайових|The Tip Jar|Зі стійки зникла повна скарбничка з чайовими за місяць.|A jar holding a month of tips has vanished from the counter.
+
+@TRAIN
+P Буфет|у буфеті|Buffet|in the buffet
+P Тамбур|у тамбурі|Vestibule|in the vestibule
+P Салон|у салоні|Lounge|in the lounge
+P Багажний|у багажному вагоні|Baggage car|in the baggage car
+P Купе|у купе провідника|Compartment|in the conductor's compartment
+P Коридор|у коридорі|Corridor|in the corridor
+P Перон|на пероні|Platform|on the platform
+I Валіза|валізу|валізи|Suitcase
+I Газета|газету|газети|Newspaper
+I Термос|термос|термоса|Thermos
+I Парасоля|парасолю|парасолі|Umbrella
+I Квиток|квиток|квитка|Ticket
+I Плед|плед|пледа|Blanket
+I Ліхтар|ліхтар|ліхтаря|Lantern
+I Футляр|футляр|футляра|Case
+R m|провідник|conductor
+R m|комівояжер|travelling salesman
+R m|машиніст|engine driver
+R m|поштар|mail clerk
+R m|лікар|doctor
+R m|студент|student
+R f|провідниця|conductor
+R f|піаністка|pianist
+R f|акторка|actress
+R f|стенографістка|stenographer
+R f|лікарка|doctor
+R f|студентка|student
+L Скрипка в дорозі|The Travelling Violin|У нічному потязі зникла старовинна скрипка.|An antique violin has vanished on the night train.
+L Дипломатична пошта|The Diplomatic Pouch|У швидкому потязі зник опломбований мішок дипломатичної пошти.|A sealed diplomatic pouch has gone missing on the express.
+L Колекція метеликів|The Butterfly Collection|У потязі зникла скринька з рідкісними метеликами, яку везли на виставку.|A box of rare butterflies bound for an exhibition has disappeared on the train.
+L Золотий годинник|The Gold Watch|У вагоні першого класу в пасажира зник золотий кишеньковий годинник.|A passenger's gold pocket watch has vanished in the first-class car.
+L Креслення мосту|The Bridge Blueprints|У потязі зник тубус із кресленнями нового мосту.|A tube with the blueprints of a new bridge has gone missing on the train.
+L Рідкісні ліки|The Rare Medicines|У нічному експресі зникла скринька з рідкісними ліками.|A box of rare medicines has disappeared on the night express.
+L Виручка вагона-ресторану|The Dining Car Takings|У потязі зникла скринька з виручкою вагона-ресторану.|The cash box of the dining car has vanished on the train.
+L Рукопис роману|The Novel Manuscript|У потязі зник єдиний примірник рукопису нового роману.|The only copy of a new novel's manuscript has gone missing on the train.
+
+@LIBRARY
+P Каталог|у каталозі|Catalogue|in the catalogue room
+P Читальня|у читальні|Reading room|in the reading room
+P Сховище|у сховищі|Vault|in the vault
+P Палітурня|у палітурні|Bindery|in the bindery
+P Вестибюль|у вестибюлі|Lobby|in the lobby
+P Архів|в архіві|Archive|in the archive
+P Гардероб|у гардеробі|Cloakroom|in the cloakroom
+I Лупа|лупу|лупи|Magnifier
+I Портфель|портфель|портфеля|Briefcase
+I Шило|шило|шила|Awl
+I Ліхтар|ліхтар|ліхтаря|Lantern
+I Тека|теку|теки|Folder
+I Драбина|драбину|драбини|Ladder
+I Блокнот|блокнот|блокнота|Notepad
+I Закладка|закладку|закладки|Bookmark
+R m|бібліотекар|librarian
+R m|студент|student
+R m|колекціонер|collector
+R m|палітурник|bookbinder
+R m|сторож|watchman
+R m|архіваріус|archivist
+R f|бібліотекарка|librarian
+R f|студентка|student
+R f|колекціонерка|collector
+R f|дослідниця|researcher
+R f|прибиральниця|cleaner
+R f|архіваріуска|archivist
+L Перше видання|The First Edition|З бібліотеки зникло перше видання відомої поеми з автографом автора.|A first edition of a famous poem, signed by the author, has vanished from the library.
+L Карта скарбів|The Treasure Map|З бібліотеки зникла старовинна карта із загадковими позначками.|An old map with mysterious markings has disappeared from the library.
+L Літопис міста|The City Chronicle|З бібліотеки зник рукописний літопис міста.|The handwritten chronicle of the city is gone from the library.
+L Глобус мореплавця|The Navigator's Globe|З бібліотеки зник старовинний глобус мореплавця.|A navigator's antique globe has vanished from the library.
+L Щоденник мандрівника|The Traveller's Diary|З бібліотеки зник щоденник мандрівника, який ще ніхто не встиг прочитати.|A traveller's diary that nobody had yet read has gone missing from the library.
+L Нотний зошит|The Music Notebook|З фонду бібліотеки зник нотний зошит із невідомим вальсом.|A music notebook with an unknown waltz has disappeared from the library collection.
+L Гербовник|The Book of Arms|Із вітрини бібліотеки зник розмальований гербовник.|An illuminated book of coats of arms is gone from the library showcase.
+L Печатка бібліотеки|The Library Seal|З бібліотеки зникла старовинна печатка, якою позначали найцінніші книги.|The antique seal used to mark the most valuable books has vanished from the library.
+
+@MUSEUM
+P Скарбниця|у скарбниці|Treasury|in the treasury
+P Вестибюль|у вестибюлі|Lobby|in the lobby
+P Запасник|у запаснику|Storage|in the storage room
+P Галерея|у галереї|Gallery|in the gallery
+P Майстерня|у майстерні|Workshop|in the workshop
+P Гардероб|у гардеробі|Cloakroom|in the cloakroom
+P Підвал|у підвалі|Basement|in the basement
+I Пензлик|пензлик|пензлика|Brush
+I Рація|рацію|рації|Radio
+I Скальпель|скальпель|скальпеля|Scalpel
+I Тубус|тубус|тубуса|Tube case
+I Ящик|ящик|ящика|Crate
+I Свисток|свисток|свистка|Whistle
+I Каталог|каталог|каталогу|Catalogue
+I Ліхтарик|ліхтарик|ліхтарика|Flashlight
+R m|куратор|curator
+R m|охоронець|guard
+R m|реставратор|restorer
+R m|вантажник|mover
+R m|екскурсовод|guide
+R m|електрик|electrician
+R f|кураторка|curator
+R f|доглядачка|attendant
+R f|реставраторка|restorer
+R f|мистецтвознавиця|art historian
+R f|екскурсоводка|guide
+R f|прибиральниця|cleaner
+L Нефритова фігурка|The Jade Figurine|З вітрини музею зникла нефритова фігурка дракона.|A jade dragon figurine has vanished from a museum display case.
+L Лицарський шолом|The Knight's Helmet|З музею зник лицарський шолом із золотою насічкою.|A knight's helmet with gold inlay is gone from the museum.
+L Етюд невідомого майстра|The Unknown Master's Sketch|З музею зник невеликий етюд, який щойно визнали шедевром.|A small sketch that had just been declared a masterpiece has disappeared from the museum.
+L Бурштинове намисто|The Amber Necklace|З експозиції зникло бурштинове намисто доби вікінгів.|A Viking-age amber necklace has vanished from the exhibition.
+L Глиняна табличка|The Clay Tablet|Із музею зникла глиняна табличка з найдавнішим рецептом хліба.|A clay tablet bearing the oldest bread recipe has gone missing from the museum.
+L Порцелянова ваза|The Porcelain Vase|З постаменту зникла порцелянова ваза, застрахована на цілий статок.|A porcelain vase insured for a fortune is gone from its pedestal.
+L Королівська печатка|The Royal Seal|З музейної вітрини зникла королівська печатка.|A royal seal has vanished from a museum case.
+L Скіфський гребінь|The Scythian Comb|Напередодні виставки з музею зник золотий скіфський гребінь.|On the eve of the exhibition a golden Scythian comb disappeared from the museum.
+
+@THEATER
+P Сцена|на сцені|Stage|on the stage
+P Гримерка|у гримерці|Dressing room|in the dressing room
+P Костюмерна|у костюмерній|Wardrobe|in the wardrobe
+P Каса|у касі|Box office|in the box office
+P Ложа|у ложі|Box|in the box
+P Фойє|у фойє|Foyer|in the foyer
+P Оркестр|в оркестровій ямі|Orchestra pit|in the orchestra pit
+I Сценарій|сценарій|сценарію|Script
+I Драбина|драбину|драбини|Ladder
+I Віяло|віяло|віяла|Fan
+I Бінокль|бінокль|бінокля|Spyglass
+I Смичок|смичок|смичка|Bow
+I Рупор|рупор|рупора|Megaphone
+I Перука|перуку|перуки|Wig
+I Програмка|програмку|програмки|Programme
+R m|суфлер|prompter
+R m|освітлювач|lighting technician
+R m|режисер|director
+R m|диригент|conductor
+R m|бутафор|prop master
+R m|критик|critic
+R f|костюмерка|costume maker
+R f|гримувальниця|make-up artist
+R f|примадонна|prima donna
+R f|скрипалька|violinist
+R f|білетерка|usher
+R f|суфлерка|prompter
+L Маска Арлекіна|The Harlequin Mask|З театрального музею зникла маска Арлекіна, якій двісті років.|A two-hundred-year-old Harlequin mask has vanished from the theatre museum.
+L Диригентська паличка|The Conductor's Baton|Перед прем'єрою зникла срібна диригентська паличка маестро.|Before the premiere the maestro's silver baton disappeared.
+L Партитура опери|The Opera Score|З театру зникла єдина партитура нової опери.|The only score of a new opera has gone missing from the theatre.
+L Перлове кольє|The String of Pearls|Під час вистави зникло перлове кольє примадонни.|The prima donna's pearl necklace vanished during the performance.
+L Каса бенефісу|The Benefit Takings|Після бенефісу з театру зникла вся виручка.|After the benefit night all the takings vanished from the theatre.
+L Суфлерський примірник|The Prompt Copy|Перед виставою зник суфлерський примірник п'єси з усіма правками.|Before the show the prompt copy of the play, with every correction, disappeared.
+L Бутафорська корона|The Stage Crown|З реквізиту зникла корона, у яку, як виявилося, вставлено справжній рубін.|A prop crown that turned out to hold a real ruby is gone from the props.
+L Афіша з автографами|The Signed Playbill|З театру зникла афіша з автографами всієї першої трупи.|A playbill signed by the entire original company has vanished from the theatre.
+
+@HOTEL
+P Рецепція|на рецепції|Reception|at reception
+P Хол|у холі|Lobby|in the lobby
+P Пральня|у пральні|Laundry|in the laundry
+P Ліфт|у ліфті|Lift|in the lift
+P Люкс|у люксі|Suite|in the suite
+P Бар|у барі|Bar|in the bar
+P Льох|у винному льоху|Cellar|in the wine cellar
+I Кошик|кошик|кошика|Basket
+I Журнал|журнал|журналу|Register
+I Шпилька|шпильку|шпильки|Hairpin
+I Візок|візок|візка|Trolley
+I Рушник|рушник|рушника|Towel
+I Фен|фен|фена|Hairdryer
+I Штопор|штопор|штопора|Corkscrew
+I Таця|тацю|таці|Tray
+R m|портьє|porter
+R m|ліфтер|lift operator
+R m|адміністратор|manager
+R m|коридорний|bellboy
+R m|сомельє|sommelier
+R m|піаніст|pianist
+R f|покоївка|chambermaid
+R f|постоялиця|guest
+R f|адміністраторка|manager
+R f|співачка|singer
+R f|масажистка|masseuse
+R f|флористка|florist
+L Смарагдова брошка|The Emerald Brooch|Із номера готелю зникла смарагдова брошка.|An emerald brooch has vanished from a hotel room.
+L Валіза дипломата|The Diplomat's Case|З готелю зникла валіза дипломата з важливими паперами.|A diplomat's case of important papers has gone missing from the hotel.
+L Книга відгуків|The Guest Book|З готелю зникла книга відгуків з автографами знаменитостей.|The guest book full of celebrity autographs is gone from the hotel.
+L Футляр із каблучкою|The Ring Box|Напередодні заручин із готелю зник футляр із каблучкою.|On the eve of an engagement a ring box disappeared from the hotel.
+L Ключ від пентхауса|The Penthouse Key|У готелі зник єдиний ключ від пентхауса.|The only key to the penthouse has gone missing at the hotel.
+L Картина з холу|The Lobby Painting|Зі стіни готелю зникла картина, яку всі вважали копією.|A painting everyone thought was a copy has vanished from the hotel wall.
+L Тижнева виручка|The Week's Takings|Уночі з готельного сейфа зникла тижнева виручка.|At night a week's takings vanished from the hotel safe.
+L Соболине манто|The Sable Coat|З готелю зникло соболине манто відомої гості.|A famous guest's sable coat has disappeared from the hotel.
+
+@OFFICE
+P Архів|в архіві|Archive|in the archive
+P Приймальня|у приймальні|Front desk|at the front desk
+P Кабінет|у кабінеті директора|Office|in the director's office
+P Переговорна|у переговорній|Meeting room|in the meeting room
+P Серверна|у серверній|Server room|in the server room
+P Кухня|на офісній кухні|Kitchen|in the office kitchen
+P Склад|на складі|Stockroom|in the stockroom
+I Тека|теку|теки|Folder
+I Калькулятор|калькулятор|калькулятора|Calculator
+I Блокнот|блокнот|блокнота|Notepad
+I Флешка|флешку|флешки|USB stick
+I Ноутбук|ноутбук|ноутбука|Laptop
+I Чашка|чашку|чашки|Mug
+I Степлер|степлер|степлера|Stapler
+I Пакунок|пакунок|пакунка|Parcel
+R m|бухгалтер|accountant
+R m|кур'єр|courier
+R m|аналітик|analyst
+R m|сисадмін|sysadmin
+R m|охоронець|security guard
+R m|юрист|lawyer
+R f|секретарка|secretary
+R f|юристка|lawyer
+R f|бухгалтерка|accountant
+R f|дизайнерка|designer
+R f|менеджерка|manager
+R f|стажистка|intern
+L Печатка фірми|The Company Seal|Напередодні великої угоди з офісу зникла печатка фірми.|On the eve of a big deal the company seal vanished from the office.
+L Макет хмарочоса|The Skyscraper Model|З офісу архітекторів зник макет хмарочоса, який мали показати замовнику.|A skyscraper model due to be shown to the client has disappeared from the architects' office.
+L Договір століття|The Contract of the Century|Із сейфа компанії зник щойно підписаний договір.|A freshly signed contract has gone missing from the company safe.
+L Призовий кубок|The Trophy Cup|З офісу зник кубок за найкращий проєкт року.|The cup for the best project of the year is gone from the office.
+L Жорсткий диск|The Hard Drive|З офісу зник жорсткий диск із бухгалтерією за десять років.|A hard drive holding ten years of accounts has vanished from the office.
+L Конверт із преміями|The Bonus Envelope|Перед святом з офісу зник конверт із преміями для всього відділу.|Before the holiday an envelope with the whole department's bonuses disappeared from the office.
+L Ескізи колекції|The Collection Sketches|З офісу модного дому зникли ескізи нової колекції.|The sketches of a new collection have gone missing from the fashion house office.
+L Зразок сплаву|The Alloy Sample|З офісу інженерної фірми зник зразок нового сплаву.|A sample of a new alloy has vanished from the engineering firm's office.
+
+@GARDEN
+P Теплиця|у теплиці|Greenhouse|in the greenhouse
+P Розарій|у розарії|Rose garden|in the rose garden
+P Альтанка|в альтанці|Gazebo|in the gazebo
+P Пасіка|на пасіці|Apiary|at the apiary
+P Лабіринт|у лабіринті|Maze|in the maze
+P Фонтан|біля фонтана|Fountain|by the fountain
+P Оранжерея|в оранжереї|Orangery|in the orangery
+I Лійка|лійку|лійки|Watering can
+I Секатор|секатор|секатора|Pruner
+I Сапка|сапку|сапки|Hoe
+I Кошик|кошик|кошика|Basket
+I Парасоля|парасолю|парасолі|Parasol
+I Фотоапарат|фотоапарат|фотоапарата|Camera
+I Лопата|лопату|лопати|Spade
+I Мотузка|мотузку|мотузки|Rope
+R m|садівник|gardener
+R m|сторож|watchman
+R m|суддя виставки|show judge
+R m|пасічник|beekeeper
+R m|ботанік|botanist
+R m|фотограф|photographer
+R f|флористка|florist
+R f|ботанікиня|botanist
+R f|журналістка|journalist
+R f|меценатка|patron
+R f|селекціонерка|plant breeder
+R f|садівниця|gardener
+L Блакитна троянда|The Blue Rose|У саду зрізали єдину блакитну троянду, виведену за двадцять років.|The only blue rose, twenty years in the making, has been cut in the garden.
+L Насіння з експедиції|The Expedition Seeds|З ботанічного саду зник пакет насіння, привезеного з далекої експедиції.|A packet of seeds brought back from a distant expedition has vanished from the botanical garden.
+L Сонячний годинник|The Bronze Sundial|З паркової алеї зник бронзовий сонячний годинник.|A bronze sundial has disappeared from the park alley.
+L Золота медаль виставки|The Show's Gold Medal|З виставки квітів зникла золота медаль переможця.|The winner's gold medal has gone missing from the flower show.
+L Бонсай імператора|The Emperor's Bonsai|З саду зник трьохсотлітній бонсай.|A three-hundred-year-old bonsai has vanished from the garden.
+L Вулик-рекордсмен|The Champion Hive|Із саду зник вулик, що давав найкращий мед у краї.|The hive that gave the best honey in the region is gone from the garden.
+L Мармуровий купідон|The Marble Cupid|З паркового постаменту зникла мармурова статуетка купідона.|A marble cupid statuette has disappeared from its pedestal in the park.
+L Цибулина тюльпана|The Tulip Bulb|Із саду зникла цибулина рідкісного чорного тюльпана.|The bulb of a rare black tulip has gone missing from the garden.
+
+@HARBOR
+P Склад|на складі|Warehouse|in the warehouse
+P Причал|на причалі|Pier|on the pier
+P Митниця|у митниці|Customs|in the customs office
+P Маяк|на маяку|Lighthouse|at the lighthouse
+P Трюм|у трюмі|Hold|in the hold
+P Місток|на містку|Bridge|on the bridge
+P Док|у доку|Dock|in the dock
+I Канат|канат|каната|Rope
+I Печатка|печатку|печатки|Stamp
+I Лом|лом|лома|Crowbar
+I Секстант|секстант|секстанта|Sextant
+I Швабра|швабру|швабри|Mop
+I Ліхтар|ліхтар|ліхтаря|Lantern
+I Рупор|рупор|рупора|Megaphone
+I Сітка|сітку|сітки|Net
+R m|боцман|boatswain
+R m|вантажник|docker
+R m|маячник|lighthouse keeper
+R m|капітан|captain
+R m|кок|ship's cook
+R m|лоцман|pilot
+R f|митна інспекторка|customs inspector
+R f|радистка|radio operator
+R f|диспетчерка|dispatcher
+R f|судновласниця|shipowner
+R f|рибалка|fisherwoman
+R f|крамарка|chandler
+L Корабельний дзвін|The Ship's Bell|З порту зник бронзовий дзвін зі старого вітрильника.|The bronze bell of an old sailing ship has vanished from the harbour.
+L Судновий журнал|The Ship's Log|З порту зник судновий журнал шхуни, яка щойно повернулася з рейсу.|The log of a schooner just back from her voyage has gone missing from the harbour.
+L Ящик прянощів|The Crate of Spices|З порту зник ящик шафрану й ванілі.|A crate of saffron and vanilla has disappeared from the port.
+L Перлина рибалки|The Fisherman's Pearl|У порту зникла величезна перлина, знайдена того ж ранку.|A huge pearl found that very morning has vanished in the harbour.
+L Морська карта|The Sea Chart|З порту зникла карта з позначеними мілинами.|A chart with the shoals marked on it has gone missing from the port.
+L Латунний компас|The Brass Compass|З порту зник латунний компас старого лоцмана.|An old pilot's brass compass is gone from the port.
+L Якір-талісман|The Lucky Anchor|З набережної зник маленький срібний якір — талісман порту.|A small silver anchor, the harbour's lucky charm, has disappeared from the quay.
+L Вантаж шовку|The Silk Cargo|З порту зник сувій рідкісного шовку.|A bolt of rare silk has vanished from the port.
+
+@LAB
+P Холодильня|у холодильній камері|Cold room|in the cold room
+P Вагова|у ваговій|Weighing room|in the weighing room
+P Мийна|у мийній|Wash room|in the wash room
+P Віварій|у віварії|Vivarium|in the vivarium
+P Автоклавна|в автоклавній|Autoclave room|in the autoclave room
+P Склад|на складі реактивів|Store|in the reagent store
+P Кабінет|у кабінеті завідувача|Office|in the lab head's office
+I Піпетка|піпетку|піпетки|Pipette
+I Колба|колбу|колби|Flask
+I Термос|термос|термоса|Thermos
+I Респіратор|респіратор|респіратора|Respirator
+I Журнал|журнал|журналу|Logbook
+I Маска|маску|маски|Mask
+I Штатив|штатив|штатива|Stand
+I Пробірка|пробірку|пробірки|Test tube
+R m|лаборант|lab assistant
+R m|хімік|chemist
+R m|аспірант|postgraduate
+R m|інженер|engineer
+R m|технолог|process engineer
+R m|завідувач|lab head
+R f|лаборантка|lab assistant
+R f|хімікиня|chemist
+R f|аспірантка|postgraduate
+R f|вірусологиня|virologist
+R f|стажистка|intern
+R f|завідувачка|lab head
+L Зразок сироватки|The Serum Sample|З лабораторії зник єдиний зразок нової сироватки.|The only sample of a new serum has vanished from the lab.
+L Лабораторний щоденник|The Lab Notebook|З лабораторії зник щоденник із результатами трирічного досліду.|A notebook with the results of a three-year experiment has gone missing from the lab.
+L Платиновий тигель|The Platinum Crucible|З лабораторії зник платиновий тигель.|A platinum crucible has disappeared from the lab.
+L Рідкісний ізотоп|The Rare Isotope|З лабораторії зникла ампула з рідкісним ізотопом.|An ampoule of a rare isotope is gone from the lab.
+L Мікроскоп професора|The Professor's Microscope|З лабораторії зник старовинний латунний мікроскоп засновника.|The founder's antique brass microscope has vanished from the lab.
+L Формула барвника|The Dye Formula|З лабораторії зник аркуш із формулою незмивного барвника.|A sheet with the formula of an indelible dye has gone missing from the lab.
+L Кристал-рекордсмен|The Record Crystal|З лабораторії зник найбільший вирощений тут кристал.|The largest crystal ever grown there has disappeared from the lab.
+L Патентна заявка|The Patent Application|З лабораторії зникла готова патентна заявка.|A finished patent application has vanished from the lab.
+
+@OBSERVATORY
+P Купол|під куполом|Dome|under the dome
+P Бібліотека|у бібліотеці|Library|in the library
+P Майстерня|у майстерні|Workshop|in the workshop
+P Тераса|на терасі|Terrace|on the terrace
+P Фотолаб|у фотолабораторії|Darkroom|in the darkroom
+P Машинна|у машинній залі|Machine room|in the machine room
+P Вежа|на вежі|Tower|in the tower
+I Викрутка|викрутку|викрутки|Screwdriver
+I Замша|замшу|замші|Chamois
+I Атлас|атлас|атласу|Atlas
+I Окуляр|окуляр|окуляра|Eyepiece
+I Штатив|штатив|штатива|Tripod
+I Указка|указку|указки|Pointer
+I Термос|термос|термоса|Thermos
+I Ліхтарик|ліхтарик|ліхтарика|Flashlight
+R m|астроном|astronomer
+R m|оптик|optician
+R m|стажист|intern
+R m|завгосп|caretaker
+R m|механік|mechanic
+R m|лектор|lecturer
+R f|астрономка|astronomer
+R f|фотографка|photographer
+R f|студентка|student
+R f|астрофізикиня|astrophysicist
+R f|лекторка|lecturer
+R f|бібліотекарка|librarian
+L Метеорит із пустелі|The Desert Meteorite|З обсерваторії зник метеорит, знайдений у пустелі.|A meteorite found in the desert has vanished from the observatory.
+L Зоряний каталог|The Star Catalogue|З обсерваторії зник рукописний зоряний каталог.|A handwritten star catalogue has gone missing from the observatory.
+L Хронометр експедиції|The Expedition Chronometer|З обсерваторії зник точний хронометр полярної експедиції.|The precise chronometer of a polar expedition has disappeared from the observatory.
+L Знімок комети|The Comet Photograph|З обсерваторії зник перший знімок нової комети.|The first photograph of a new comet is gone from the observatory.
+L Дзеркало телескопа|The Telescope Mirror|З обсерваторії зникло запасне дзеркало телескопа.|The spare telescope mirror has vanished from the observatory.
+L Латунна астролябія|The Brass Astrolabe|З музею обсерваторії зникла латунна астролябія.|A brass astrolabe has gone missing from the observatory museum.
+L Щоденник спостережень|The Observation Diary|З обсерваторії зник щоденник спостережень за сто років.|A hundred years' observation diary has disappeared from the observatory.
+L Медаль відкривача|The Discoverer's Medal|З обсерваторії зникла медаль за відкриття планети.|The medal for discovering a planet has vanished from the observatory.
